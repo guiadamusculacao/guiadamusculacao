@@ -38,6 +38,8 @@ links:
     url: /sobre/
   - title: Contato
     url: /contato/
+  - title: DMCA
+    url: /dmca/
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
