@@ -7,7 +7,7 @@ permalink: /dmca/
 
 <img itemprop="image" class="img-rounded" src="{{ site.url }}/assets/ico/192x192.png" alt="GoodzSex Logotipo">
 
-## Sobre
+## DMCA
 
 A GoodzSex possuí enorme satisfação em proporcionar conteudo pornografico de qualidade gratuitamente.<br/>
 Os videos disponivel aqui estão hospedados no site <a href="https://xvideos.com/">xvideos</a> da qual possui suas proprias diretrizes.<br/>
