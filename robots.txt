@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /*
+Disallow: /imagens/
+
+Sitemap: http://goodzsex.tk/sitemap.xml
+Sitemap: http://goodzsex.tk/sitemap-video.xml

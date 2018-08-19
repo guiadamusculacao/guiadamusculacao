@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/BlogPosting">
+    <head>
+    {% include description-post.html %}
+    {% include head.html %}
+    </head>
+    <body class="has-push-menu">
+        <style>.post-content iframe{width: 100%;height:-webkit-fill-available;}</style>
+        {% include minutes-to-read.html %}
+        {% include svg-icons.html %}
+        {% include header.html %}
+        <section class="post">
+            <article role="article" id="post" class="post-content" itemprop="articleBody">
+                <p itemprop="post-info" class="post-info">
+                    {% if page.date %}
+                        <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
+                        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
+                            {% include date.html date=page.date %}
+                        </time>
+                    {% endif %}
+                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
+                    <span>{{ minutesText }}</span>
+                </p>
+                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+                <div class="tags">
+{% for tag in page.tags %}
+                    <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                    {% endfor %}
+                    
+                    
+                    </div>
+                {% if page.embed %}
+<iframe src="{{ page.embed }}" frameborder="0" width="100%" height="-webkit-fill-available" scrolling="no" allowfullscreen="allowfullscreen"></iframe>                {{ content }}
+                {% endif %}
+            </article>
+
+
+
+            {% include share.html %}
+            {% include comments.html %}
+            {% include footer.html %}
+        </section>
+    </body>
+</html>
