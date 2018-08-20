@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = postsNumeroD;
+    while (counter < numberOfPosts)
+    {
+        var randomIndex;
+        var postHREFD;
+        var postTitleD;
+        var postMiniaturaD;
+        var postDescricaoD;
+        var postEstrelaD;
+        randomIndex = Math.floor(Math.random() * postsHREFD.length);
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+            postHREFD = postsHREFD[randomIndex];
+            postTitleD = postsTitleD[randomIndex];
+            postMiniaturaD = postsMiniaturaD[randomIndex];
+            postDescricaoD = postsDescricaoD[randomIndex];
+            postEstrelaD = postsEstrelaD[randomIndex];
+                document.write('<li class="postagem"><div class="post-teaser1"><div class="post-teaser"><a class="post-link" href="' + postHREFD + '"><img class="postthumb" alt="' + postTitleD + ' Logo" title="' + postTitleD + ' Logo" src="/' + postMiniaturaD + '"/></a><span class="tituloedescricao"><header><span class="titulopost"><a class="post-link" href="' + postHREFD + '">' + postTitleD + '</a></span></h1></header><div class="excerpt">' + postDescricaoD + '</div></span><div class="caixainfodestaque"><div class="caixainfo1destaque"><div class="infobuton1"><div class="infobuton"><a class="infobutonadestaque" href="' + postHREFD + '">Informações</a></div></div></div><div class="caixainfodestaque2"></div></div><br/></div></div></li>');
+            randomIndexUsed.push(randomIndex);
+            counter++;
+        }
+    }
+</script>
