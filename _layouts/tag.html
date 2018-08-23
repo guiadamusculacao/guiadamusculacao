@@ -3,11 +3,11 @@
       <script type="text/javascript">
     var url_ = new URL(location.href);
     var nomedacidade = url_.searchParams.get("q");
-    var postsHREF = [{% for post in site.tags.[' + nomedacidade + '] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTitle = [{% for post in site.tags.[' + nomedacidade + '] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
-	var postsMiniatura = [{% for post in site.tags.[' + nomedacidade + '] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
-	var postsNumero = ["{{ site.tags.[' + nomedacidade + '] | size }}"];
-	var postsDescricao = [{% for post in site.tags.[' + nomedacidade + '] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
+    var postsHREF = [{% for post in site.tags.[url_.searchParams.get("q")] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle = [{% for post in site.tags.[' + url_.searchParams.get("q") + '] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
+	var postsMiniatura = [{% for post in site.tags.[' + url_.searchParams.get("q") + '] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+	var postsNumero = ["{{ site.tags.[' + url_.searchParams.get("q") + '] | size }}"];
+	var postsDescricao = [{% for post in site.tags.[' + url_.searchParams.get("q") + '] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 ' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 </script>
 </head>
