@@ -1,10 +1,10 @@
 <head>
       <script type="text/javascript">
-    var postsHREF = [{% for post in site.tags.[teen] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTitle = [{% for post in site.tags.[teen] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
-	var postsMiniatura = [{% for post in site.tags.[teen] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
-	var postsNumero = ["{{ site.tags.[teen] | size }}"];
-	var postsDescricao = [{% for post in site.tags.[teen] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
+    var postsHREF = [{% for post in site.tags.[page.tag] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle = [{% for post in site.tags.[page.tag] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
+	var postsMiniatura = [{% for post in site.tags.[page.tag] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
+	var postsNumero = ["{{ site.tags.[page.tag] | size }}"];
+	var postsDescricao = [{% for post in site.tags.[page.tag] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
 ' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 </script>
 </head>
