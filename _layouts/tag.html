@@ -1,40 +1,23 @@
-<html>
-<head>
-      <script type="text/javascript">
-    var url_ = new URL(location.href);
-    var nomedacidade = url_.searchParams.get("q");
-    var postsHREF = [{% for post in site.tags.[url_.searchParams.get("q")] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTitle = [{% for post in site.tags.[' + url_.searchParams.get("q") + '] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
-	var postsMiniatura = [{% for post in site.tags.[' + url_.searchParams.get("q") + '] %}{% if post.thumbnail %}"{{ post.thumbnail }}"{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}];
-	var postsNumero = ["{{ site.tags.[' + url_.searchParams.get("q") + '] | size }}"];
-	var postsDescricao = [{% for post in site.tags.[' + url_.searchParams.get("q") + '] %}"{{ post.excerpt | remove: '<p>' | remove: '</p>' | remove: '
-' }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-</script>
-</head>
-<body>
-<script type="text/javascript">
-    var randomIndexUsed = [];
-    var counter = 0;
-    var numberOfPosts = postsNumero;
-    while (counter < numberOfPosts)
-    {
-        var randomIndex;
-        var postHREF;
-        var postTitle;
-        var postMiniatura;
-        var postDescricao;
-        randomIndex = Math.floor(Math.random() * postsHREF.length);
-        if (randomIndexUsed.indexOf(randomIndex) == "-1")
-        {
-            postHREF = postsHREF[randomIndex];
-            postTitle = postsTitle[randomIndex];
-            postMiniatura = postsMiniatura[randomIndex];
-            postDescricao = postsDescricao[randomIndex];
-                document.write('<li class="postagem"><div class="post-teaser1"><div class="post-teaser"><a class="post-link" href="' + postHREF + '"><img class="postthumb" alt="' + postTitle + ' Logo" title="' + postTitle + ' Logo" src="/' + postMiniatura + '"/></a><span class="tituloedescricao"><header><span class="titulopost"><a class="post-link" href="' + postHREF + '">' + postTitle + '</a></span></h1></header><div class="excerpt">' + postDescricao + '</div></span><div class="caixainfo"><div class="caixainfo1"><div class="infobuton1"><div class="infobuton"><a class="infobutona" href="' + postHREF + '">Informações</a></div></div></div><div class="caixainfo2"></div></div><br/></div></div></li>');
-            randomIndexUsed.push(randomIndex);
-            counter++;
-        }
-    }
-</script>
-</body>
-</html>
+---
+layout: base
+---
+<div class="container">
+    <div class="row">
+        <!-- Begin blog articles -->
+        <section class="col-md-7">
+            {% if site.tags.[page.filter_tag] %}
+            {% for post in site.tags.[page.filter_tag] %}
+
+            <!-- Begin post -->
+            {% include blog/blog_post.html %}
+            <!-- End post -->
+
+            {% unless forloop.last %}<hr>{% endunless %}
+            {% endfor %}
+            {% else %}
+            <h2>No posts to display.</h2>
+            {% endif %}
+        </section>
+        <!-- End blog articles -->
+    </div>
+</div>
