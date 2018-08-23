@@ -8,7 +8,7 @@ google_analytics: "UA-124267055-1"
 
 blog:
     tags:
-        url: /blog/tags/
+        url: /tags/
         title_prefix: "blog - tag: "
         layout: tag.html
 
