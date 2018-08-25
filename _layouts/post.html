@@ -5,7 +5,11 @@
     {% include head.html %}
     </head>
     <body class="has-push-menu">
-        <style>.post-content iframe{width: 100%;height:-webkit-fill-available;}</style>
+        <style>.post-content iframe{width: 100%;height:-webkit-fill-available;}
+            .videoplayerporn{width:100%;height:550px;}
+            .videoplayerporndiv{width:100%;height:513px;position:absolute;}
+            .big-button play:{display:none}
+        </style>
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
         {% include header.html %}
@@ -30,7 +34,8 @@
                     
                     </div>
                 {% if page.embed %}
-<iframe src="{{ page.embed }}" frameborder="0" width="100%" height="-webkit-fill-available" scrolling="no" allowfullscreen="allowfullscreen"></iframe>                {{ content }}
+                <div class="videoplayerporndiv"></div>
+<iframe src="{{ page.embed }}" frameborder="0" class="videoplayerporn" scrolling="no" allowfullscreen="allowfullscreen"></iframe>                {{ content }}
                 {% endif %}
             </article>
 
