@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.goodzsex.com" # the base hostname & protocol for your site
 google_analytics: "UA-124267055-1"
 
+include: ["_pornstar"]
+
 blog:
     tags:
         url: /tags/
