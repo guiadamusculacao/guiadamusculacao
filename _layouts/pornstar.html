@@ -9,6 +9,6 @@ layout: compress
     {% include head.html %}
     </head>
     <body class="main-page has-push-menu">
-{% for post in site.tags.[page.pornstar] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}
+        {% for post in site.tags.[page.pornstar] %}}<p>{{ post.title }}</p>{% endfor %}
     </body>
 </html>
