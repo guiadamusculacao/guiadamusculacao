@@ -25,8 +25,8 @@ layout: compress
                 {% if post.image %}
                     <div class="cover">
                         {% include new-post-tag.html date=post.date %}
-                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                            <img src="assets/img/placeholder.png" data-url="{{ site.url }}{{ post.image }}" class="preload">
+                        <a href="{{ site.url }}{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                            <img src="{{ site.url }}assets/img/placeholder.png" data-url="{{ site.url }}{{ post.image }}" class="preload">
                         </a>
                         <p style="float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;"><script>
 function secondsToHms(d) {
@@ -45,12 +45,12 @@ document.write(secondsToHms({{ post.duracao }}));
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date %}
                     </time>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="post-link" href="{{ site.url }}{{ post.url | prepend: site.baseurl }}">
                         <h2 class="post-title" itemprop="name">
                             {{ post.title }}
                         </h2>
                     </a>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="post-link" href="{{ site.url }}{{ post.url | prepend: site.baseurl }}">
                         <p class="description">{{ post.introduction }}</p>
                     </a>
                     <!-- <div class="tags">
