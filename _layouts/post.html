@@ -19,7 +19,16 @@
                         </time>
                     {% endif %}
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>{{ minutesText }}</span>
+                    <span><script>
+function secondsToHms(d) {
+    d = Number(d);
+    var h = Math.floor(d / 3600);
+    var m = Math.floor(d % 3600 / 60);
+    var s = Math.floor(d % 3600 % 60);
+    return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);
+}
+document.write(secondsToHms({{ post.duracao }}));
+</script></span>
                 </p>
                 <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
                 <div class="tags">
