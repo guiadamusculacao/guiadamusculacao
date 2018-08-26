@@ -1,4 +1,5 @@
 ---
+title: Izzy Bell
 permalink: /pornstar/izzy-bell/
 layout: pornstar
 pornstar: izzy-bell
