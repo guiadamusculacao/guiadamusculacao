@@ -5,4 +5,5 @@ image: '/thumbs/bangbros-pawg-alexis-texas-gets-her-thicc-booty-slammed-by-prest
 embed: 'https://www.xvideos.com/embedframe/37057503'
 duracao: 720
 tags: 'hardcore babe pornstar ass bangbros shaved white booty assparede small-tits pawg whooty ass-parade bang-bros ap9719'
+pornstars: alexis-texas
 ---
