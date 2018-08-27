@@ -12,9 +12,6 @@ layout: null
   {% for posts in site.pages %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc> 
-    <image:image>
-      <image:loc>{{ site.url }}{{ post.image }}</image:loc>
-    </image:image> 
   </url>
 {% endfor %}
   {% for post in site.posts %}
