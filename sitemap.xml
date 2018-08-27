@@ -11,7 +11,7 @@ layout: null
   </url>
   {% for posts in site.pages %}
   <url>
-    <loc>{{ site.url }}{{ post.url }}</loc> 
+    <loc>{{ site.url }}{{ page.url }}</loc> 
   </url>
 {% endfor %}
   {% for post in site.posts %}
