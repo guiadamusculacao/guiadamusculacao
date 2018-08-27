@@ -10,7 +10,7 @@ layout: null
     </image:image> 
   </url>
 {% for post in site.pages %}
-{% if post.layout == 'cidade' %}  
+{% if post.layout == 'pornstar' %}  
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc> 
   </url>
