@@ -9,7 +9,7 @@ layout: null
       <image:loc>https://www.goodzsex.com/assets/img/goodzsex.png</image:loc>
     </image:image> 
   </url>
-  {% for pornstars in site.pornstars %}
+  {% for posts in site.pages %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc> 
     <image:image>
