@@ -1,6 +1,7 @@
 ---
+title: Nikki Brooks
 permalink: /pornstar/nikki-brooks/
 layout: pornstar
 pornstar: nikki-brooks
-description: A GoodzSex proporciona videos pornograficos de alta qualidade gratuitamente!
+description: Confira os videos pornos de Nikki Brooks e muito mais gratuitamente na GoodzSex.
 ---
