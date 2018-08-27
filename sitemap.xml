@@ -9,10 +9,12 @@ layout: null
       <image:loc>https://www.goodzsex.com/assets/img/goodzsex.png</image:loc>
     </image:image> 
   </url>
-  {% for post in site.pages %}
+{% for post in site.pages %}
+{% if post.layout == 'cidade' %}  
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc> 
   </url>
+{% endif %}
 {% endfor %}
   {% for post in site.posts %}
   <url>
