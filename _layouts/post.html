@@ -33,7 +33,7 @@ document.write(secondsToHms({{ page.duracao }}));
                 <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
                 <div class="tags">
                     {% for pornstar in page.pornstars %}
-                    <a id="pornstartag" style="background-color:#ff0a0a;color:#fff;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }}{{ page.pornstar[page.pornstars].size }}</a>
+                    <a id="pornstartag" style="background-color:#ff0a0a;color:#fff;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }}{{ site.tags[page.pornstars].size }}</a>
                     {% endfor %}
 {% for tag in page.tags %}
                     <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
