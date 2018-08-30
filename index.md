@@ -5,7 +5,7 @@ description: A GoodzSex proporciona videos pornograficos de alta qualidade gratu
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
-{% for post in site.posts %}
+{% for post in paginator.posts %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <!--<span class="category">
                 <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}">
@@ -49,6 +49,22 @@ document.write(secondsToHms({{ post.duracao }}));
                             <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                         {% endfor %}
                     </div> -->
+                    
+                    <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+                    
                     
                 </div>
             </div>
