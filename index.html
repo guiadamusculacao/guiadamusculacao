@@ -58,11 +58,40 @@ document.write(secondsToHms({{ post.duracao }}));
         </article>
     {% endfor %}
     </div>
-    {% for count in (2..paginator.total_pages) %}
+{% if paginator.total_pages < 7 %}
+{% if paginator.page == 1 %}
+        <span class="current bold">1</span>
+{% else %}
+        <a href="{{ site.url }}/">1</a>
+{% endif %}
+{% for count in (2..paginator.total_pages) %}
     {% if count == paginator.page %}
-        <span class="current">{{ count }}</span>
+        <span class="current bold">{{ count }}</span>
     {% else %}
-        <a href="/page/{{ count }}/" class="pagenavi-page" title="{{ count }}">{{ count }}</a>
+        <a href="/page{{ count }}/" class="pagenavi-page" title="{{ count }}">{{ count }}</a>
     {% endif %}
 {% endfor %}
+{% else %}
+{% assign page_start = paginator.page | minus: 2 %}
+{% assign page_end = paginator.page | plus: 2 %}
+{% if page_end > paginator.total_pages %}
+{% assign page_end = paginator.total_pages %}
+{% assign page_start = paginator.page | minus: 4 %}
+{% endif %}
+{% if page_start < 2 %}
+{% assign page_end = paginator.page | plus: 3 %}
+{% assign page_start = paginator.page | minus: 1 %}
+{% endif %}
+{% if page_start == 0 %}
+{% assign page_end = paginator.page | plus: 4 %}
+{% assign page_start = paginator.page %}
+{% endif %}
+{% if page_start == 1 %}
+{% assign page_end = paginator.page | plus: 4 %}
+{% assign page_start = 2 %}
+{% if paginator.page == 1 %}
+        <span class="current bold">1</span>
+{% else %}
+        <a href="{{ site.url }}/">1</a>
+{% endif %}
 </main>
