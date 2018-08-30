@@ -9,7 +9,7 @@ google_analytics: "UA-124267055-1"
 include: ["_pornstar"]
 
 paginate: 52
-paginate_path: "pagina/:num/"
+paginate_path: "/pagina/:num/"
 
 blog:
     tags:
