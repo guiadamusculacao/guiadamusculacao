@@ -18,6 +18,9 @@ description: A GoodzSex proporciona videos pornograficos de alta qualidade gratu
                 color: #fff;
                 text-decoration: none;
             }
+            .imagem{
+                width:100%;
+            }
         </style> 
 {% for post in paginator.posts %}
         <article class="postagem" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
@@ -31,7 +34,7 @@ description: A GoodzSex proporciona videos pornograficos de alta qualidade gratu
                     <div class="cover">
                         {% include new-post-tag.html date=post.date %}
                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                            <img src="assets/img/placeholder.png" data-url="{{ site.url }}{{ post.image }}" class="preload">
+                            <img src="assets/img/placeholder.png" data-url="{{ site.url }}{{ post.image }}" class="imagem">
                         </a>
                         <p style="float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;"><script>
 function secondsToHms(d) {
