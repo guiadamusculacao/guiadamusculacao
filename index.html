@@ -58,6 +58,10 @@ document.write(secondsToHms({{ post.duracao }}));
         </article>
     {% endfor %}
     </div>
+
+down vote
+Tente isso ao invés
+
 {% if paginator.total_pages < 7 %}
 {% if paginator.page == 1 %}
         <span class="current bold">1</span>
@@ -93,5 +97,14 @@ document.write(secondsToHms({{ post.duracao }}));
         <span class="current bold">1</span>
 {% else %}
         <a href="{{ site.url }}/">1</a>
+{% endif %}
+{% endif %}
+{% for count in (page_start..page_end) %}
+    {% if count == paginator.page %}
+        <span class="current bold">{{ count }}</span>
+    {% else %}
+        <a href="/page{{ count }}/" class="pagenavi-page" title="{{ count }}">{{ count }}</a>
+    {% endif %}
+{% endfor %} 
 {% endif %}
 </main>
