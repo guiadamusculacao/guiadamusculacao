@@ -62,11 +62,11 @@ document.write(secondsToHms({{ post.duracao }}));
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous"><script>
-function secondsToHms(d) {
-    pagina = {% if paginator.previous_page %}{{ paginator.page }}{% endif %};
-    var paginamenosum = Math.floor(pagina - 1);
+function secondsToPage(e) {
+    e = number(e);
+    var paginamenosum = Math.floor(e - 1);
 }
-document.write(secondsToHms(paginamenosum));
+document.write(secondsToPage({% if paginator.previous_page %}{{ paginator.page }}{% endif %};));
 </script>Previous</a>
   {% else %}
     <span class="previous">Previous</span>
