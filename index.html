@@ -50,7 +50,15 @@ document.write(secondsToHms({{ post.duracao }}));
                         {% endfor %}
                     </div> -->
                     
-                    <!-- Pagination links -->
+
+                    
+                    
+                </div>
+            </div>
+        </article>
+    {% endfor %}
+    </div>
+                        <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
@@ -64,11 +72,4 @@ document.write(secondsToHms({{ post.duracao }}));
     <span class="next ">Next</span>
   {% endif %}
 </div>
-                    
-                    
-                </div>
-            </div>
-        </article>
-    {% endfor %}
-    </div>
 </main>
