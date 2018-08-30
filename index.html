@@ -66,7 +66,7 @@ function secondsToPage(e) {
     e = number(e);
     var paginamenosum = Math.floor(e - 1);
 }
-document.write(secondsToPage({% if paginator.previous_page %}{{ paginator.page }}{% endif %};));
+document.write(secondsToPage({% if paginator.previous_page %}{{ paginator.page }}{% endif %};)));
 </script>Previous</a>
   {% else %}
     <span class="previous">Previous</span>
