@@ -97,7 +97,7 @@ document.write(secondsToHms({{ post.duracao }}));
 {% endif %}
 {% for count in (page_start..page_end) %}
     {% if count == paginator.page %}
-        <span class="current bold">{{ count }}</span>
+        <span class="current-page">{{ count }}</span>
     {% else %}
         <a href="/pagina/{{ count }}/" class="pagenavi-page" title="{{ count }}">{{ count }}</a>
     {% endif %}
