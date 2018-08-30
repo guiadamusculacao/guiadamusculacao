@@ -62,21 +62,21 @@ document.write(secondsToHms({{ post.duracao }}));
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous"><script>
-document.write({% if paginator.previous_page %}{{ paginator.page }}{% endif %}-1);
+document.write({{ paginator.page }}-1);
 </script></a>
   {% else %}
     <span class="previous"><script>
-document.write({% if paginator.previous_page %}{{ paginator.page }}{% endif %}-1);
+document.write({{ paginator.page }}-1);
 </script></span>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span class="page_number ">{{ paginator.page }}</span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next"><script>
-document.write({% if paginator.previous_page %}{{ paginator.page }}{% endif %}+1);
+document.write({{ paginator.page }}+1);
 </script></a>
   {% else %}
     <span class="next "><script>
-document.write({% if paginator.previous_page %}{{ paginator.page }}{% endif %}+1);
+document.write({{ paginator.page }}+1);
 </script></span>
   {% endif %}
 </div>
