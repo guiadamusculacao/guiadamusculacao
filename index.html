@@ -5,59 +5,11 @@ description: A GoodzSex proporciona videos pornograficos de alta qualidade gratu
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
-        
-        <!-- teste -->
-        
-        {% for post in paginator.posts %}
-        <article class="postagem" itemscope="itemscope">
-            <div class="corpo">
-                {% if post.image %}
-                    <div class="miniatura">
-                        {% include new-post-tag.html date=post.date %}
-                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="imagemlink"{% endif %}>
-                            <img src="{{ site.url }}{{ post.image }}" class="imagem">
-                        </a>
-                        <p style="float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;"><script>
-function secondsToHms(d) {
-    d = Number(d);
-    var h = Math.floor(d / 3600);
-    var m = Math.floor(d % 3600 / 60);
-    var s = Math.floor(d % 3600 % 60);
-    return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);
-}
-document.write(secondsToHms({{ post.duracao }}));
-</script></p>
-                    </div>
-                {% endif %}
-                <div class="informação">
-                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
-                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
-                        {% include date.html date=post.date %}
-                    </time>
-                    <a class="postlink" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="titulo" itemprop="name">
-                            {{ post.title }}
-                        </h2>
-                    </a>               
-                </div>
-            </div>
-        </article>
-    {% endfor %}
-        
         <style>
             .postagem{
                 width: 25%;
                 padding-left: 1%;
                 padding-right: 1%;
-            }
-            .corpo{
-                width:100%;
-            }
-            .miniatura{
-                width:100%;
-            }
-            .imagem{
-                width:100%;
             }
             .titulo{
                 text-overflow: ellipsis;
@@ -66,12 +18,9 @@ document.write(secondsToHms({{ post.duracao }}));
                 color: #fff;
                 text-decoration: none;
             }
-        </style>
-        
-        <!--teste-->
-        
+        </style> 
 {% for post in paginator.posts %}
-        <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <article class="postagem" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <!--<span class="category">
                 <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}">
                     <span>{{ post.category }}</span>
@@ -102,7 +51,7 @@ document.write(secondsToHms({{ post.duracao }}));
                         {% include date.html date=post.date %}
                     </time>
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">
+                        <h2 class="titulo" itemprop="name">
                             {{ post.title }}
                         </h2>
                     </a>
