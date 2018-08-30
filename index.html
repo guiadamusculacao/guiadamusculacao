@@ -58,6 +58,7 @@ document.write(secondsToHms({{ post.duracao }}));
         </article>
     {% endfor %}
     </div>
+    <center>
 {% if paginator.total_pages < 7 %}
 {% if paginator.page == 1 %}
         <span class="current bold">1</span>
@@ -103,6 +104,7 @@ document.write(secondsToHms({{ post.duracao }}));
     {% endif %}
 {% endfor %} 
 {% endif %}
+</center>
 <style>
 .pagenavi-page{
     border: solid 2px black;
