@@ -58,26 +58,15 @@ document.write(secondsToHms({{ post.duracao }}));
         </article>
     {% endfor %}
     </div>
-                        <!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous"><script>
-document.write({{ paginator.page }}-1);
-</script></a>
-  {% else %}
-    <span class="previous"><script>
-document.write({{ paginator.page }}-1);
-</script></span>
-  {% endif %}
-  <span class="page_number ">{{ paginator.page }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next"><script>
-document.write({{ paginator.page }}+1);
-</script></a>
-  {% else %}
-    <span class="next "><script>
-document.write({{ paginator.page }}+1);
-</script></span>
-  {% endif %}
-</div>
+{% capture start %}{{ paginator.page | minus: 3 }}{% endcapture %}
+
+{% for i in (1..paginator.total_pages) limit: 5 offset: start %}
+    {% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+        <span class="current">{{ count }}</span>
+    {% else %}
+        <a href="/page/{{ count }}/" class="pagenavi-page" title="{{ count }}">{{ count }}</a>
+    {% endif %}
+{% endfor %}
+{% endfor %}
 </main>
