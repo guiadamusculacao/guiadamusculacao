@@ -63,7 +63,7 @@ document.write(secondsToHms({{ post.duracao }}));
 {% if paginator.page == 1 %}
         <span class="current-page">1</span>
 {% else %}
-        <a href="{{ site.url }}/">1</a>
+        <a href="{{ site.url }}/" class="pagenavi-page">1</a>
 {% endif %}
 {% for count in (2..paginator.total_pages) %}
     {% if count == paginator.page %}
