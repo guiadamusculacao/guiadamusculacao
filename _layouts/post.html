@@ -37,7 +37,7 @@ document.write(secondsToHms({{ page.duracao }}));
                     <a id="pornstartag" style="background-color:#ff0a0a;color:#fff;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }} <span style="color:black;background-color:#fffefe;border:solid 0.5px #404040;padding:1px;font-size:.7rem;">{{ site.posts | where_exp: 'post', 'post.pornstars contains page.pornstars' | size }}</span></a>
                     {% endfor %}
 {% for tag in page.tags %}
-                    <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                    <a class="atag" href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                     {% endfor %}
                    
                     <script>
@@ -61,6 +61,7 @@ document.write(secondsToHms({{ page.duracao }}));
                         .videoplayerporndiv{width:100%;height:360px;position:absolute;}
                     }
                     .post-title{color:#fff;}
+                    .atag{background-color:#292929;color:#fff;}
         </style>
                 {% endif %}
             </article>
