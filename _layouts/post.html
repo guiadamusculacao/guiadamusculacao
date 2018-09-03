@@ -11,7 +11,7 @@
         {% include header.html %}
         <section class="content">
         <main class="home">
-            <article role="article" id="post" class="post-content" itemprop="articleBody">
+            <article role="article" id="post" class="post-content" itemprop="articleBody" style="display:inline-block;width:fit-contente;">
                 <p itemprop="post-info" class="post-info">
                     {% if page.date %}
                         <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
@@ -65,6 +65,7 @@ document.write(secondsToHms({{ page.duracao }}));
         </style>
                 {% endif %}
             </article>
+            <div style="width:350px;display:inline-block"></div>
 
 
 
