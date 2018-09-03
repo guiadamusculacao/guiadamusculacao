@@ -8,7 +8,7 @@ google_analytics: "UA-124267055-1"
 
 include: ["_pornstar"]
 
-paginate: 52
+paginate: 24
 paginate_path: "/pagina/:num/"
 
 blog:
