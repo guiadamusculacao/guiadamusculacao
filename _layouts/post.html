@@ -9,7 +9,8 @@
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
         {% include header.html %}
-        <section class="post">
+        <section class="content">
+        <main class="home">
             <article role="article" id="post" class="post-content" itemprop="articleBody">
                 <p itemprop="post-info" class="post-info">
                     {% if page.date %}
@@ -68,6 +69,7 @@ document.write(secondsToHms({{ page.duracao }}));
             {% include share.html %}
             {% include comments.html %}
             {% include footer.html %}
-        </section>
+            </main>
+            </section>
     </body>
 </html>
