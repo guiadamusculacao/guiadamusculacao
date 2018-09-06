@@ -93,7 +93,7 @@ var ad_idzone = "3121494",
 
 		<div class="relatedPosts">
 
-<h4>You May Also Enjoy</h4> 
+<h4>Videos Relacionados</h4> 
 
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  2 %}
@@ -116,7 +116,41 @@ var ad_idzone = "3121494",
 
     {% if sameTagCount >= minCommonTags %}
       <div>
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}{{ commonTags }}</a></h5>
+<div class="box-body">
+                {% if post.image %}
+                    <div class="cover">
+                        {% include new-post-tag.html date=post.date %}
+                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                            <img src="assets/img/placeholder.png" alt="{{ post.title }} thumbnail" data-url="{{ site.url }}{{ post.image }}" class="preload">
+                        </a>
+                        <p class="posttime"><script>
+function secondsToHms(d) {
+    d = Number(d);
+    var h = Math.floor(d / 3600);
+    var m = Math.floor(d % 3600 / 60);
+    var s = Math.floor(d % 3600 % 60);
+    return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);
+}
+document.write(secondsToHms({{ post.duracao }}));
+</script></p>
+                    </div>
+                {% endif %}
+                <div class="box-info">
+                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                        {% include date.html date=post.date %}
+                    </time>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="titulo" itemprop="name">
+                            {{ post.title }}
+                        </h2>
+                    </a>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <p class="description">{{ post.introduction }}</p>
+                    </a> 
+                </div>
+            </div>
+	      
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
