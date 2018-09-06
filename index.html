@@ -5,31 +5,9 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
-        <style>
-            .box-item{
-                width: 25%;
-                padding-left: 1%;
-                padding-right: 1%;
-                margin: 0px;
-            }
-            .titulo{
-                text-overflow: ellipsis;
-                white-space: nowrap;
-                overflow: hidden;
-                color: #fff;
-                text-decoration: none;
-            }
-            .preload{
-                width:100%;
-            }
-        </style> 
+<style>.box-item{width:25%;padding-left:1%;padding-right:1%;margin:0px;}.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;}.preload{width:100%;}.posttime{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}.pagenavi-page{border:solid 1px #141414;background-color:#292929;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}.pagenavi-page:hover{background-color:#0e0e0e;}.current-page{border:solid 1px #141414;background-color:#0e0e0e;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}</style> 
 {% for post in paginator.posts %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-            <!--<span class="category">
-                <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}">
-                    <span>{{ post.category }}</span>
-                </a>
-            </span>-->
             <div class="box-body">
                 {% if post.image %}
                     <div class="cover">
@@ -37,7 +15,7 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                             <img src="assets/img/placeholder.png" alt="{{ post.title }} thumbnail" data-url="{{ site.url }}{{ post.image }}" class="preload">
                         </a>
-                        <p style="float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;"><script>
+                        <p class="posttime"><script>
 function secondsToHms(d) {
     d = Number(d);
     var h = Math.floor(d / 3600);
@@ -123,25 +101,4 @@ document.write(secondsToHms({{ post.duracao }}));
 {% endfor %} 
 {% endif %}
 </center>
-<style>
-.pagenavi-page{
-    border: solid 1px #141414;
-    background-color: #292929;
-    text-decoration: none;
-    color: #fff;
-    padding: 6px;
-    border-radius: 5px;
-    }
-.pagenavi-page:hover{
-    background-color: #0e0e0e;
-    }
-.current-page{
-    border: solid 1px #141414;
-    background-color: #0e0e0e;
-    text-decoration: none;
-    color: #fff;
-    padding: 6px;
-    border-radius: 5px;   
-    }
-</style>
 </main>
