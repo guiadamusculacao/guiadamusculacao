@@ -40,17 +40,11 @@ document.write(secondsToHms({{ page.duracao }}));
                     <a class="atag" href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                     {% endfor %}
                    
-                    <script>
-                        function myPornstarFunction() {
-    var str = document.getElementById("pornstartag").innerHTML; 
-    var res = str.replace("-", " ");
-    document.getElementById("pornstartag").innerHTML = res;
-}
-                    </script>
+<script>$(document).ready(function(){var str=document.getElementById("pornstartag").innerHTML;var res=str.replace("-", " ");document.getElementById("pornstartag").innerHTML = res;});</script>
                     
                     </div>
                 {% if page.embed %}
-<div class="video-corpo"><iframe onload="myPornstarFunction()" src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe></div>                {{ content }}
+<div class="video-corpo"><iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe></div>                {{ content }}
 <div class="anuncio-corpo">
 <div style="height:260px;">
 	<script type="text/javascript">
