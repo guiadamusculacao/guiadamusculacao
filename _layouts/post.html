@@ -34,7 +34,7 @@ document.write(secondsToHms({{ page.duracao }}));
                 <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
                 <div class="tags">
                     {% for pornstar in page.pornstars %}
-                    <a id="pornstartag" style="background-color:#ff0a0a;color:#fff;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }} <span style="color:black;background-color:#fffefe;border:solid 0.5px #404040;padding:1px;font-size:.7rem;">{{ site.posts | where_exp: 'post', 'post.pornstars contains page.pornstars' | size }}</span></a>
+                    <a id="pornstartag" style="background-color:#ff0a0a;color:#fff;text-transform:capitalize;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }} <span style="color:black;background-color:#fffefe;border:solid 0.5px #404040;padding:1px;font-size:.7rem;">{{ site.posts | where_exp: 'post', 'post.pornstars contains page.pornstars' | size }}</span></a>
                     {% endfor %}
 {% for tag in page.tags %}
                     <a class="atag" href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
