@@ -37,10 +37,11 @@ document.write(secondsToHms({{ page.duracao }}));
                     <a id="pornstartag" style="background-color:#ff0a0a;color:#fff;text-transform:capitalize;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }} <span style="color:black;background-color:#fffefe;border:solid 0.5px #404040;padding:1px;font-size:.7rem;">{{ site.posts | where_exp: 'post', 'post.pornstars contains page.pornstars' | size }}</span></a>
                     {% endfor %}
 {% for tag in page.tags %}
-                    <a class="atag" href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                    <a id="tag" class="atag" href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                     {% endfor %}
                    
 <script>$(document).ready(function(){var str=document.getElementById("pornstartag").innerHTML;var res=str.replace("-", " ");document.getElementById("pornstartag").innerHTML = res;});</script>
+<script>$(document).ready(function(){var str=document.getElementById("tag").innerHTML;var res=str.replace("-", " ");document.getElementById("tag").innerHTML = res;});</script>
                     
                     </div>
                 {% if page.embed %}
