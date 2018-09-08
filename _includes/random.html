@@ -19,11 +19,11 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<p><a href="{{ site.url }}' + postHREF + '">Random</a></p>');
+                document.write('<p style="randomp"><a style="randoma" href="{{ site.url }}' + postHREF + '">Random</a></p>');
             }
             else
             {
-                document.write('<p><a href="{{ site.url }}' + postHREF + '">Random</a></p>');
+                document.write('<p style="randomp"><a style="randoma" href="{{ site.url }}' + postHREF + '">Random</a></p>');
             }
             randomIndexUsed.push(randomIndex);
             counter++;
@@ -31,3 +31,7 @@
     }
 
 </script>
+<style>
+    .randomp{width:fit-content;margin-right:1rem;float:right;}
+    .randoma{text-decoration:none;color:#fff;font-weight:bold;}
+</style>
