@@ -19,11 +19,11 @@
 
             if (counter == (numberOfPosts - 1))
             {
-                document.write('<p><a href="' + postHREF + '">Random</a></p>');
+                document.write('<p><a href="{{ site.url }}' + postHREF + '">Random</a></p>');
             }
             else
             {
-                document.write('<p><a href="' + postHREF + '">Random</a></p>');
+                document.write('<p><a href="{{ site.url }}' + postHREF + '">Random</a></p>');
             }
             randomIndexUsed.push(randomIndex);
             counter++;
