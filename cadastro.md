@@ -14,13 +14,14 @@ permalink: /cadastro/
 
 <div class="container">
 
-  <h2>Enive-nos uma mensagem</h2>
+  <h2>Cadastre-se</h2>
 
   <div id="form" class="contact-form">
-<form class="cadastroform" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=goodzsexoficial', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-<p class="botaoinput" id="botaoinput" onclick="myFunction()">Cadastrar</p>
-<input class="cadastroinput" type="text"  name="email" id="cadastroinput" placeholder="Digite seu E-mail"/>
-<input type="hidden" value="goodzsexoficial" name="uri"/><input type="hidden" name="loc" value="pt_BR"/><input class="cadastrosubmit" type="submit" id="cadastrosubmit" value="Confirmar" />
+<form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=goodzsexoficial', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+<input type="text"  name="email" id="cadastroinput" placeholder="Digite seu E-mail"/>
+<input type="hidden" value="goodzsexoficial" name="uri"/>
+<input type="hidden" name="loc" value="pt_BR"/>
+<button type="submit" id="cadastrosubmit">Confirmar</button>
 </form>
   </div>
 
