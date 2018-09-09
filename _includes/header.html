@@ -1,15 +1,13 @@
 <header class="bar-header">
-    <a id="menu">
-        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
-    </a>
-    <a id="search" class="dosearch">
-        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
-    </a>
-        <a href="{{ site.baseurl }}/">
-<h1 style="display:none;">GoodzSex</h1>
-<img src="{{ site.url }}/assets/img/goodzsex.png" alt="GoodzSex Logo" height="50px"/>        </a>
-        {% include random.html %}
-        {% include cadastro.html %}
+<div class="header1"><a id="menu"><svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg></a></div>
+<div class="header1"><a href="{{ site.baseurl }}/"><h1 style="display:none;">GoodzSex</h1><img src="{{ site.url }}/assets/img/goodzsex.png" alt="GoodzSex Logo" height="50px"/></a></div>
+<div class="header2">{% include cadastro.html %}</div>
+<div class="header2">{% include random.html %}</div>
+<div class="header2"><a id="search" class="dosearch"><svg class="icon-search"><use xlink:href="#icon-search"></use></svg></a></div>
+<style>
+    .header1{display:inline-block;float:left;}
+    .header2{display:inline-block;float:right;}
+    </style>
 </header>
 
 <div id="mask" class="overlay"></div>
