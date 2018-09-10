@@ -7,4 +7,4 @@ video: 'https://www.xvideos.com/video38962457/sobrinho_olhando_a_calcinha_da_tia
 duracao: 24
 tags: 'gostosa aunt titia'
 ---
-<a href="{{ page.url }}"><img src="{{ site.url }}{{ page.image }}" /></a>
+<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" /></a>
