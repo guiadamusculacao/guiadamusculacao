@@ -33,13 +33,11 @@ medium_username: medium_username
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 permalink: /:title/
 
 # Plugins
 gems:
   - jemoji
-  - tagpagegenerator
 
 # Links to include in menu navigation
 # For external links add external: true
