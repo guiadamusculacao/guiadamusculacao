@@ -47,7 +47,7 @@ document.write(secondsToHms({{ page.duracao }}));
                 {% if page.embed %}
 <div class="video-corpo"><iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
 	<div style="text-align:right;"><a class="videoreport" href="{{ page.video }}#_tabReport">Denunciar</a></div>
-	<img src="{{ page.thumb }}" width="1px" height="1px"/>
+	<img src="{{ post.image }}" width="1px" height="1px"/>
 </div>
 		    <style>
 			    .videoreport{color:#fff;background-color:#505050;font-size:.875rem;border:1px solid #141414;border-radius:3px;padding:.625rem;}
