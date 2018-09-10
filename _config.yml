@@ -32,7 +32,6 @@ linkedin_username: linkedin_username
 medium_username: medium_username
 
 # Build settings
-markdown: kramdown
 permalink: /:title/
 
 # Plugins
