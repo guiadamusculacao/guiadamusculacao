@@ -46,6 +46,18 @@ document.write(secondsToHms({{ page.duracao }}));
                     </div>
                 {% if page.embed %}
 <div class="video-corpo"><iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
+<script type="text/javascript">
+    var exoOpts = {
+        // postroll: {},
+        // pause: { padding: 1 },
+        // offsetY: +40,
+        // ignore_swfobject: 1,
+        idzone_300x250: 3128030,
+        preroll: {},
+        show_thumb: 1
+    };
+</script>
+<script type="text/javascript" src="https://ads.exosrv.com/invideo.js"></script>
 	<div style="text-align:right;"><a class="videoreport" href="{{ page.video }}#_tabReport">Denunciar</a></div>
 	<img src="{{ post.image }}" width="1px" height="1px"/>
 </div>
