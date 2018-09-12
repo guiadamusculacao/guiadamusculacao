@@ -5,6 +5,10 @@ layout: compress
 <!DOCTYPE html>
 <html lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
     <head>
+        <script type="text/javascript">
+    var postsHREF2 = [{% for post in site.tags.[anal] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle2 = [{% for post in site.tags.[anal] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
+</script>
     {% include description-page.html %}
     {% include head.html %}
     </head>
