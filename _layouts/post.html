@@ -45,7 +45,14 @@ document.write(secondsToHms({{ page.duracao }}));
                     
                     </div>
                 {% if page.embed %}
-<div class="video-corpo"><iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
+<div class="video-corpo"><script type="text/javascript">
+var ad_idzone = "3129628",
+	 ad_width = "728",
+	 ad_height = "90";
+</script>
+<script type="text/javascript" src="https://ads.exosrv.com/ads.js"></script>
+<noscript><a href="https://main.exosrv.com/img-click.php?idzone=3129628" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=3129628&output=img&type=728x90" width="728" height="90"></a></noscript>
+<iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
 	<div style="text-align:right;"><a class="videoreport" href="{{ page.video }}#_tabReport">Denunciar</a></div>
 	<img src="{{ post.image }}" width="1px" height="1px"/>
 </div>
