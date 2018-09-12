@@ -6,8 +6,8 @@ layout: compress
 <html lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
     <head>
         <script type="text/javascript">
-    var postsHREF2 = [{% for post in site.tags.anal %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTitle2 = [{% for post in site.tags.anal %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
+    var postsHREF = [{% for post in site.tags.anal %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle = [{% for post in site.tags.anal %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];	
 </script>
     {% include description-page.html %}
     {% include head.html %}
@@ -18,6 +18,46 @@ layout: compress
             <section class="content">
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
+        
+        <script type="text/javascript">
+
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = 5;
+
+    while (counter < numberOfPosts)
+    {
+        var randomIndex;
+        var postHREF;
+        var postTitle;
+
+        randomIndex = Math.floor(Math.random() * postsHREF.length);
+
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+            postHREF = postsHREF[randomIndex];
+            postTitle = postsTitle[randomIndex];
+
+            if (counter == (numberOfPosts - 1))
+            {
+                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p>');
+            }
+            else
+            {
+                document.write('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
+            }
+
+            randomIndexUsed.push(randomIndex);
+
+            counter++;
+        }
+    }
+
+</script>
+        
+        
+        
+        
             {% for post in site.posts %}
         {% if post.tags == page.tag %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
