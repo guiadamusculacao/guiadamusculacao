@@ -6,10 +6,11 @@ description: "Procure por sua #tag favorita."
 ---
 
 <script type="text/javascript">
+var url_ = new URL(location.href);
+var tag = url_.searchParams.get("q");
+    var postsHREF = [{% for post in site.tags.[tag] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
-    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-
-    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    var postsTitle = [{% for post in site.tags.[tag] %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
 
 </script>
 <script type="text/javascript">
