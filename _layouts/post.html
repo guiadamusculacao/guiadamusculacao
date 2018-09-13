@@ -12,7 +12,8 @@
         <section class="content">
         <main class="home" style="text-align:center;">
             <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <p itemprop="post-info" class="post-info">
+                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+		                    <p itemprop="post-info" class="post-info">
                     {% if page.date %}
                         <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
                         <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
@@ -31,7 +32,6 @@ function secondsToHms(d) {
 document.write(secondsToHms({{ page.duracao }}));
 </script></span>
                 </p>
-                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
                 <div class="tags">
                     {% for pornstar in page.pornstars %}
                     <a id="pornstartag" style="background-color:#ff0a0a;color:#fff;text-transform:capitalize;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }} <span style="color:black;background-color:#fffefe;border:solid 0.5px #404040;padding:1px;font-size:.7rem;">{{ site.posts | where_exp: 'post', 'post.pornstars contains page.pornstars' | size }}</span></a>
