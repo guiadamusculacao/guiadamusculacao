@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "brasil terra de gostosas 2244"
-image: '/thumbs/brasil_terra_de_gostosas_2244.jpg'
+image: 'https://i.imgur.com/ytudKci.png'
 embed: 'https://www.xvideos.com/embedframe/38647521'
 video: 'https://www.xvideos.com/video38647521/brasil_terra_de_gostosas_2244'
 duracao: 1723
