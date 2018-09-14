@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bratty Sis - BFF Catches StepBro Creaming His Sisters Pussy! S6:E8"
-image: '/thumbs/bratty_sis_-_bff_catches_stepbro_creaming_his_sisters_pussy_s6_e8.jpg'
+image: 'https://i.imgur.com/wcIxE6o.png'
 embed: 'https://www.xvideos.com/embedframe/39341560'
 video: 'https://www.xvideos.com/video39341560/bratty_sis_-_bff_catches_stepbro_creaming_his_sisters_pussy_s6_e8'
 duracao: 723
