@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Slutty Blonde Daughter"
-image: '/thumbs/slutty_blonde_daughter.jpg'
+image: 'https://i.imgur.com/RsxUo75.png'
 embed: 'https://www.xvideos.com/embedframe/23913580'
 video: 'https://www.xvideos.com/video23913580/slutty_blonde_daughter'
 duracao: 277
