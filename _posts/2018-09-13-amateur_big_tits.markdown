@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "amateur big tits"
-image: '/thumbs/amateur_big_tits.jpg'
+image: 'https://i.imgur.com/A5TWSEM.png'
 embed: 'https://www.xvideos.com/embedframe/25156827'
 video: 'https://www.xvideos.com/video25156827/amateur_big_tits'
 duracao: 351
