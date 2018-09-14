@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Step Brother Cums Inside Sisters Teen Pussy"
-image: '/thumbs/step_brother_cums_inside_sisters_teen_pussy.jpg'
+image: 'https://i.imgur.com/jxyKi0A.png'
 embed: 'https://www.xvideos.com/embedframe/30387857'
 video: 'https://www.xvideos.com/video30387857/step_brother_cums_inside_sisters_teen_pussy'
 duracao: 712
