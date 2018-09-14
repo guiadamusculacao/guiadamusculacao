@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comendo Gostoso A ruiva"
-image: '/thumbs/comendo_gostoso_a_ruiva.jpg'
+image: 'https://i.imgur.com/Fp8FQx1.png'
 embed: 'https://www.xvideos.com/embedframe/38180947'
 video: 'https://www.xvideos.com/video38180947/comendo_gostoso_a_ruiva'
 duracao: 208
