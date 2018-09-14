@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tio espiando a Sobrinha gostosa"
-image: '/thumbs/tio_espiando_a_sobrinha_gostosa.jpg'
+image: 'https://i.imgur.com/jsl56QM.png'
 embed: 'https://www.xvideos.com/embedframe/38513123'
 video: 'https://www.xvideos.com/video38513123/tio_espiando_a_sobrinha_gostosa'
 duracao: 492
