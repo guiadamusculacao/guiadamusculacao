@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Teen Step Sisters Homemade Sex Tape LEAKED"
-image: '/thumbs/teen_step_sisters_homemade_sex_tape_leaked.jpg'
+image: 'https://i.imgur.com/3E1MRnp.png'
 embed: 'https://www.xvideos.com/embedframe/29971075'
 video: 'https://www.xvideos.com/video29971075/teen_step_sisters_homemade_sex_tape_leaked'
 duracao: 680
