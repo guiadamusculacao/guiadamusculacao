@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prima gostosa perde aposta"
-image: '/thumbs/prima_gostosa_perde_aposta.jpg'
+image: 'https://i.imgur.com/DsYds2k.png'
 embed: 'https://www.xvideos.com/embedframe/38725187'
 video: 'https://www.xvideos.com/video38725187/prima_gostosa_perde_aposta'
 duracao: 194
