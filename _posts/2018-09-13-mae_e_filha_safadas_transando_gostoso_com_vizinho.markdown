@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mãe e filha safadas transando gostoso com vizinho"
-image: '/thumbs/mae_e_filha_safadas_transando_gostoso_com_vizinho.jpg'
+image: 'https://i.imgur.com/L0kELdx.png'
 embed: 'https://www.xvideos.com/embedframe/39535259'
 video: 'https://www.xvideos.com/video39535259/mae_e_filha_safadas_transando_gostoso_com_vizinho_www.eudotado.tk'
 duracao: 363
