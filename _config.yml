@@ -53,8 +53,6 @@ links:
     url: /contato/
   - title: DMCA
     url: /dmca/
-  - title: Video Deletado?
-    url: /deletado/
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
