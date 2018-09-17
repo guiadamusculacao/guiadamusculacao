@@ -57,10 +57,3 @@ new Vue({
   }
 });
 </script>
-<script>
-$(document).ready(function() {
-var url_ = new URL(location.href);
-var variavel = url_.searchParams.get("q");
-$("#link").val(variavel);
-});
-</script>
