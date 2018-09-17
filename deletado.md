@@ -24,6 +24,7 @@ permalink: /deletado/
         <input type="hidden" name="_language" value="en" />
 
 <script>
+$(function() {
 var url_ = new URL(location.href);
 var variavel = url_.searchParams.get("q");
 $("#link").val(variavel); // #categoria é o ID do select
