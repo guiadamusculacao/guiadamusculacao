@@ -14,14 +14,13 @@ permalink: /deletado/
 
 <div class="container">
 
-  <h2>Enive-nos uma mensagem</h2>
+  <h2>Video deletado? Nos envie o link!</h2>
 
   <div id="form" class="contact-form">
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
-        <input type="hidden" name="_subject" value="New contact!" />
-        <input type="hidden" name="_next" value="{{ site.url }}/contact/message-sent/" />
-        <input type="hidden" name="_language" value="en" />
+        <input type="hidden" name="_next" value="{{ site.url }}" />
+        <h4>Link do vídeo deletado:</h4>
         <input type="text" id="link" name="name" value="Link do video deletado!" v-validate="'required'"
                :class="{ 'has-error': errors.has('name') }">
         <span v-if="errors.has('name')" v-cloak>${ errors.first('name') }</span>
