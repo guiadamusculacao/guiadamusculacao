@@ -22,15 +22,6 @@ permalink: /deletado/
         <input type="hidden" name="_subject" value="New contact!" />
         <input type="hidden" name="_next" value="{{ site.url }}/contact/message-sent/" />
         <input type="hidden" name="_language" value="en" />
-
-<script>
-$(document).ready(function() {
-var url_ = new URL(location.href);
-var variavel = url_.searchParams.get("q");
-$("#link").val(variavel);
-});
-</script>
-
         <input type="text" id="link" name="name" value="Link do video deletado!" v-validate="'required'"
                :class="{ 'has-error': errors.has('name') }">
         <span v-if="errors.has('name')" v-cloak>${ errors.first('name') }</span>
@@ -64,5 +55,12 @@ new Vue({
       }
     }
   }
+});
+</script>
+<script>
+$(document).ready(function() {
+var url_ = new URL(location.href);
+var variavel = url_.searchParams.get("q");
+$("#link").val(variavel);
 });
 </script>
