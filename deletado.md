@@ -30,7 +30,7 @@ $("#link").val(variavel); // #categoria é o ID do select
 });
 </script>
 
-        <input type="text" id="link" name="name" placeholder="Link do video deletado!" v-validate="'required'"
+        <input type="text" id="link" name="name" value="Link do video deletado!" v-validate="'required'"
                :class="{ 'has-error': errors.has('name') }">
         <span v-if="errors.has('name')" v-cloak>${ errors.first('name') }</span>
         <button type="submit">Enviar</button>
