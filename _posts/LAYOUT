@@ -1,0 +1,10 @@
+---
+layout: post
+title: 'XXXXX'
+image: 'XXXXX'
+embed: 'XXXXX'
+video: 'XXXXX'
+duracao: 'XXXXX'
+tags: 'XXXXX'
+---
+<a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ page.image }}" /></a>
