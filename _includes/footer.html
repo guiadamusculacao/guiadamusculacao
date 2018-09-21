@@ -33,9 +33,9 @@
     </p>-->
     <ul>
         {% for link in site.links %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          <li class="footerli"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
-        <li><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
+        <li class="footerli"><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
     </ul>
     <p>Copyright © 2018 <span>GoodzSex</span> Todos os direitos reservados.</p>
 </footer>
