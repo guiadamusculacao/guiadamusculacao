@@ -27,7 +27,7 @@ layout: compress
                     <div class="cover">
                         {% include new-post-tag.html date=post.date %}
                         <a href="{{ site.url }}{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                            <img src="{{ site.url }}assets/img/placeholder.png" data-url="{{ site.url }}{{ post.image }}" class="preload">
+                            <img src="{{ site.url }}assets/img/placeholder.png" data-url="{{ post.image }}" class="preload">
                         </a>
                         <p style="float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;"><script>
 function secondsToHms(d) {
