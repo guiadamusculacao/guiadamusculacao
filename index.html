@@ -10,6 +10,8 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 .corpo-post{width:25%;padding-left:1%;padding-right:1%;margin:0px;}
 .tempo-post{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}
 .link-post{text-decoration:none}
+.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;margin:0px;}.
+.data-post{margin:0px 0px 20px 0px;}
 </style>
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
@@ -34,16 +36,18 @@ document.write(secondsToHms({{ post.duracao }}));
 </script></p>
                 {% endif %}
                 <div class="box-info">
-                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
-                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
-                        {% include date.html date=post.date %}
-                    </time>
                     <a class="link-post" href="{{ post.url | prepend: site.baseurl }}">
                         <h2 class="titulo" itemprop="name">
                             {{ post.title }}
                         </h2>
                     </a>
-                </div>
+                    <div class="data-post">
+                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                        {% include date.html date=post.date %}
+                    </time>
+                    </div>
+                    </div>
             </div>
         </article>
     {% endfor %}
