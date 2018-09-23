@@ -23,15 +23,13 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 <link href="jquery.modal.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
     $(function() {
-        /*Confere se sts já existe na Cookie*/
         if ($.cookie('sts') != '1')
         {
             setTimeout(function()
             {        
-            $("#data").modal(); /*Executa o Modal*/       
-                /*Gerando os dados do Cookie*/
+            $("#data").modal();
                 var date = new Date(); 
-                var tempo = 30; // minutos 
+                var tempo = 30;
                 date.setTime(date.getTime() + (tempo * 60 * 1000));
                 jQuery.cookie('sts', '1', { expires: date });
             }, 1000);
