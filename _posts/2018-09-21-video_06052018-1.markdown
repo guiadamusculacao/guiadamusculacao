@@ -6,5 +6,6 @@ embed: 'https://www.xvideos.com/embedframe/35957659'
 video: 'https://www.xvideos.com/video35957659/video_06052018-1'
 duracao: '125'
 tags: 'anal sex ass blowjob brunette amateur big-ass boquete sexo peituda culo big-tits mamada tetona culona amadora cu jeune casero'
+descricao: 'Comendo a gostosa peituda em um video caseiro.'
 ---
 <a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ page.image }}" /></a>
