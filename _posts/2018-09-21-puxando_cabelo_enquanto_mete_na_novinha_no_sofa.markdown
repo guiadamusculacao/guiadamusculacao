@@ -6,5 +6,6 @@ embed: 'https://www.xvideos.com/embedframe/36543615'
 video: 'https://www.xvideos.com/video36543615/puxando_cabelo_enquanto_mete_na_novinha_no_sofa'
 duracao: '119'
 tags: 'delicia safada cuzinho novinha'
+descricao: 'Puxando o cabelo e comendo a novinha rabuda no sofá.'
 ---
 <a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ page.image }}" /></a>
