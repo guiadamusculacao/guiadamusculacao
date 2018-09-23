@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br" itemscope itemtype="http://schema.org/BlogPosting">
-    <head>
-    {% include description-post.html %}
-    {% include head.html %}
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    </head>
-    <body class="main-page has-push-menu">
-
-        {% include minutes-to-read.html %}
-        {% include svg-icons.html %}
-        {% include header.html %}
-        <section class="content">
-        <main class="home" style="text-align:center;">
-            <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-		                    <p itemprop="post-info" class="post-info">
-                    {% if page.date %}
-                        <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
-                        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
-                            {% include date.html date=page.date %}
-                        </time>
-                    {% endif %}
-                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span><script>
-function secondsToHms(d) {
-    d = Number(d);
-    var h = Math.floor(d / 3600);
-    var m = Math.floor(d % 3600 / 60);
-    var s = Math.floor(d % 3600 % 60);
-    return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);
-}
+<head>
+{% include description-post.html %}
+{% include head.html %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body class="main-page has-push-menu">
+{% include minutes-to-read.html %}
+{% include svg-icons.html %}
+{% include header.html %}
+	<section class="content">
+		<main class="home" style="text-align:center;">
+			<article role="article" id="post" class="post-content">
+				<h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+					<p itemprop="post-info" class="post-info">
+					{% if page.date %}
+						<svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
+						<time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">{% include date.html date=page.date %}</time>
+					{% endif %}
+					<svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
+					<span><script>
+function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}
 document.write(secondsToHms({{ page.duracao }}));
-</script></span>
-                </p>
-                <div class="tags">
+					</script></span>
+					</p>
+					<div class="tags">
                     {% for pornstar in page.pornstars %}
                     <a id="pornstartag" class="atag" style="background-color:#ff0a0a;color:#fff;text-transform:capitalize;" href="{{ site.url}}/pornstar/{{pornstar | slugify }}">{{ pornstar }} <span style="color:black;background-color:#fffefe;border:solid 0.5px #404040;padding:1px;font-size:.7rem;">{{ site.posts | where_exp: 'post', 'post.pornstars contains page.pornstars' | size }}</span></a>
                     {% endfor %}
@@ -47,8 +38,6 @@ document.write(secondsToHms({{ page.duracao }}));
                     </div>
                 {% if page.embed %}
 <div class="video-corpo">
-	
-	
 <div class="anunciosuperiormobile"><script type="text/javascript">
 var ad_idzone = "3129632",
 	 ad_width = "300",
@@ -139,44 +128,32 @@ var ad_idzone = "3129638",
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-<article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-	<div class="box-body">
-                {% if post.image %}
-                    <div class="cover">
-                        {% include new-post-tag.html date=post.date %}
-                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                            <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="preload">
-                        </a>
-                        <p class="posttime"><script>
-function secondsToHms(d) {
-    d = Number(d);
-    var h = Math.floor(d / 3600);
-    var m = Math.floor(d % 3600 / 60);
-    var s = Math.floor(d % 3600 % 60);
-    return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);
-}
+    <article class="corpo-post">
+        <div class="box-body">
+        {% if post.image %}
+        {% include new-post-tag.html date=post.date %}
+            <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
+                <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
+            </a>
+            <p class="tempo-post"><script>
+function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}
 document.write(secondsToHms({{ post.duracao }}));
-</script></p>
-                    </div>
-                {% endif %}
-                <div class="box-info">
+</script>
+            </p>
+        {% endif %}
+            <div class="box-info">
+                <a class="link-post" href="{{ post.url | prepend: site.baseurl }}">
+                    <h2 class="titulo" itemprop="name">{{ post.title }}</h2>
+                </a>
+                <div class="data-post">
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date %}
                     </time>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="titulo" itemprop="name">
-                            {{ post.title }}
-                        </h2>
-                    </a>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <p class="description">{{ post.introduction }}</p>
-                    </a> 
                 </div>
             </div>
-	              </article>
-
-
+        </div>
+    </article>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
