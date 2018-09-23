@@ -4,6 +4,19 @@
 {% include description-post.html %}
 {% include head.html %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style>
+.novo-post:after{content:'Novo';text-transform:uppercase;display:inline-block;background:#ff0a16;color:#fff;font-size:.813rem;font-weight:700;line-height:1.5rem;padding:0 .5rem;position:absolute;margin-top:-2.187rem;}
+.thumbnail{width:100%;height:auto;margin:0 auto;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.thumbnail:hover{z-index:2;-webkit-transform:scale(1.1);transform:scale(1.1);}
+.corpo-post{width:25%;padding-left:1%;padding-right:1%;margin:0px;}
+.tempo-post{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}
+.link-post{text-decoration:none}
+.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;margin:0px;width:100%;}
+.data-post{margin:0px 0px 20px 0px;color:#9e9e9e;}
+@media only screen and (max-width:600px){
+.corpo-post{width:100%;}
+}
+</style>
 </head>
 <body class="main-page has-push-menu">
 {% include minutes-to-read.html %}
