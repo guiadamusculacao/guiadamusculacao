@@ -1,0 +1,72 @@
+<style>
+.novo-post:after{content:'Novo';text-transform:uppercase;display:inline-block;background:#ff0a16;color:#fff;font-size:.813rem;font-weight:700;line-height:1.5rem;padding:0 .5rem;position:absolute;margin-top:-2.187rem;}
+.thumbnail{width:100%;height:auto;margin:0 auto;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.thumbnail:hover{z-index:2;-webkit-transform:scale(1.1);transform:scale(1.1);}
+.corpo-post{width:25%;padding-left:1%;padding-right:1%;margin:0px;}
+.tempo-post{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}
+.link-post{text-decoration:none}
+.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;margin:0px;width:100%;}
+.data-post{margin:0px 0px 20px 0px;color:#9e9e9e;}
+@media only screen and (max-width:600px){
+.corpo-post{width:100%;}
+}
+</style>
+		<h4>Videos Relacionados</h4> 
+			<div class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <div id="grid" class="row flex-grid">
+{% assign maxRelated = 8 %}
+{% assign minCommonTags =  2 %}
+{% assign maxRelatedCounter = 0 %}
+
+  {% for post in site.posts %}
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+    <article class="corpo-post">
+        <div class="box-body">
+        {% if post.image %}
+        {% include new-post-tag.html date=post.date %}
+            <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
+                <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
+            </a>
+            <p class="tempo-post"><script>
+function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}
+document.write(secondsToHms({{ post.duracao }}));
+</script>
+            </p>
+        {% endif %}
+            <div class="box-info">
+                <a class="link-post" href="{{ post.url | prepend: site.baseurl }}">
+                    <h2 class="titulo" itemprop="name">{{ post.title }}</h2>
+                </a>
+                <div class="data-post">
+                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                        {% include date.html date=post.date %}
+                    </time>
+                </div>
+            </div>
+        </div>
+    </article>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
+
+</div>	
+</div>	
