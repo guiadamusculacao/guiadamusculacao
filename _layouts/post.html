@@ -5,7 +5,8 @@
 {% include head.html %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style>
-	.descricao-post{width:100%;background-color:#2f2f2f;}
+	.descricao-post{width:100%;background-color:#2f2f2f;color:#fff;}
+	.descricao-post img{display:none;}
 </style>
 </head>
 <body class="main-page has-push-menu">
@@ -52,7 +53,7 @@ var ad_idzone = "3129628",
 	 ad_height = "90";
 </script><script type="text/javascript" src="https://ads.exosrv.com/ads.js"></script><noscript><a href="https://main.exosrv.com/img-click.php?idzone=3129628" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=3129628&output=img&type=728x90" width="728" height="90"></a></noscript></div>
 <iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
-	<div class="descricao-post">{{ content }}</div>
+	<div class="descricao-post">{{ content | }}</div>
 	<div style="text-align:right;display:inline-block;"><a class="videoreport" href="{{ site.url }}/deletado/?q={{ page.url }}">Deletado?</a></div>
 	<div style="text-align:right;display:inline-block;"><a class="videoreport" href="{{ page.video }}#_tabReport">Denunciar</a></div>
 	<img src="{{ post.image }}" width="1px" height="1px"/>
