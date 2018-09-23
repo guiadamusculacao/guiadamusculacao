@@ -7,7 +7,8 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 .novo-post:after{content:'Novo';text-transform:uppercase;display:inline-block;background:#ff0a16;color:#fff;font-size:.813rem;font-weight:700;line-height:1.5rem;padding:0 .5rem;position:absolute;margin-top:-2.187rem;}
 .thumbnail{width:100%;height:auto;margin:0 auto;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
 .corpo-post{width:25%;padding-left:1%;padding-right:1%;margin:0px;}
-.tempo-post{.float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}
+.tempo-post{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}
+.link-post{text-decoration:none}
 </style>
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
@@ -36,15 +37,11 @@ document.write(secondsToHms({{ post.duracao }}));
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date %}
                     </time>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="link-post" href="{{ post.url | prepend: site.baseurl }}">
                         <h2 class="titulo" itemprop="name">
                             {{ post.title }}
                         </h2>
                     </a>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <p class="description">{{ post.introduction }}</p>
-                    </a>
-
                 </div>
             </div>
         </article>
