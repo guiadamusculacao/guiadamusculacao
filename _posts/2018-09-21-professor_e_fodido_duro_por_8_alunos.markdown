@@ -7,6 +7,6 @@ video: 'https://www.xvideos.com/video35937541/professor_e_fodido_duro_por_8_alun
 duracao: '3753'
 tags: 'cumshot cum sex hardcore blonde interracial ass gangbang blowjobs orgasm hardsex orgy orgia chupada rubia profesora black-cock alumnos sexo-duro penes-negros'
 pornstars: britney-amber
-descricao: 'Professora fudida por 8 alunos negros e gosta.'
+descricao: 'Professora gostosa fudida por 8 alunos e gosta.'
 ---
 <a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ page.image }}" /></a>
