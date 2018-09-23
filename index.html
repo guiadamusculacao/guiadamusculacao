@@ -23,14 +23,28 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/path/to/jquery.cookie.js"></script>
-<script>var cookieAlert = $.cookie("alert");
-$('#alerta').show();
-    $.cookie("alert", 1, {expires: 1});
+<script>
+    $(window).load(function () {
+  // if no cookie
+  if ($.cookie('alert') != "true") {
+    $("#alerta").show();
+    $("#hide").click(function () {
+      $("#pop-up").slideUp("slow");
+      // set the cookie for 24 hours
+      var date = new Date();
+      date.setTime(date.getTime() + 24 * 60 * 60 * 1000);
+
+    });
+          $.cookie('alert', "true", {
+        expires: 1
+      });
+  }
+});
 </script>
 <div id="alerta" class="alerta">
 <div class="alerta2">
 Atenção a pagina a seguir possuí conteudo adulto, caso seja menor de idade volte a pagina anterior!
-<p class="alerta-entrar" onclick="document.getElementById('alerta').style.cssText = 'display:none';">Tenho +18 anos</p><p class="alerta-sair">Voltar</p>
+<p class="alerta-entrar" id="hide">Tenho +18 anos</p><p class="alerta-sair">Voltar</p>
 </div></div>
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
