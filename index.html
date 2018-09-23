@@ -16,6 +16,33 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 .corpo-post{width:100%;}
 }
 </style>
+
+
+<script type="text/javascript"  src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
+<script src="jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+<link href="jquery.modal.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+    $(function() {
+        /*Confere se sts já existe na Cookie*/
+        if ($.cookie('sts') != '1')
+        {
+            setTimeout(function()
+            {        
+            $("#data").modal(); /*Executa o Modal*/       
+                /*Gerando os dados do Cookie*/
+                var date = new Date(); 
+                var tempo = 10; // minutos 
+                date.setTime(date.getTime() + (tempo * 60 * 1000));
+                jQuery.cookie('sts', '1', { expires: date });
+            }, 1000);
+        }
+
+    });     
+    </script>
+<div style="display:none" id="data" class="modal">
+TESTE
+</div>
+
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
 <div id="grid" class="row flex-grid">
 <style>.box-item{width:25%;padding-left:1%;padding-right:1%;margin:0px;}.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;}.preload{width:100%;}.posttime{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}.pagenavi-page{border:solid 1px #141414;background-color:#292929;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}.pagenavi-page:hover{background-color:#0e0e0e;}.current-page{border:solid 1px #141414;background-color:#0e0e0e;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}</style> 
