@@ -14,43 +14,36 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 .data-post{margin:0px 0px 20px 0px;}
 </style>
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div id="grid" class="row flex-grid">
+<div id="grid" class="row flex-grid">
 <style>.box-item{width:25%;padding-left:1%;padding-right:1%;margin:0px;}.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;}.preload{width:100%;}.posttime{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}.pagenavi-page{border:solid 1px #141414;background-color:#292929;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}.pagenavi-page:hover{background-color:#0e0e0e;}.current-page{border:solid 1px #141414;background-color:#0e0e0e;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}</style> 
 {% for post in paginator.posts %}
-        <article class="corpo-post">
-            <div class="box-body">
-                {% if post.image %}
-                        {% include new-post-tag.html date=post.date %}
-                        <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
-                            <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
-                        </a>
-                        <p class="tempo-post"><script>
-function secondsToHms(d) {
-    d = Number(d);
-    var h = Math.floor(d / 3600);
-    var m = Math.floor(d % 3600 / 60);
-    var s = Math.floor(d % 3600 % 60);
-    return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);
-}
+    <article class="corpo-post">
+        <div class="box-body">
+        {% if post.image %}
+        {% include new-post-tag.html date=post.date %}
+            <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
+                <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
+            </a>
+            <p class="tempo-post"><script>
+function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}
 document.write(secondsToHms({{ post.duracao }}));
-</script></p>
-                {% endif %}
-                <div class="box-info">
-                    <a class="link-post" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="titulo" itemprop="name">
-                            {{ post.title }}
-                        </h2>
-                    </a>
-                    <div class="data-post">
+</script>
+            </p>
+        {% endif %}
+            <div class="box-info">
+                <a class="link-post" href="{{ post.url | prepend: site.baseurl }}">
+                    <h2 class="titulo" itemprop="name">{{ post.title }}</h2>
+                </a>
+                <div class="data-post">
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date %}
                     </time>
-                    </div>
-                    </div>
+                </div>
             </div>
-        </article>
+        </div>
+    </article>
     {% endfor %}
-    </div>
+</div>
 {% include paginacao.html %}
 </main>
