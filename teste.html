@@ -1,0 +1,99 @@
+---
+layout: main2
+description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Teen, Brasileiro, Brazilian Lesbian, Panteras e diversas outras categorias você encontra na GoodzSex!
+---
+<style>
+.novo-post:after{content:'Novo';text-transform:uppercase;display:inline-block;background:#ff0a16;color:#fff;font-size:.813rem;font-weight:700;line-height:1.5rem;padding:0 .5rem;position:absolute;margin-top:-2.187rem;}
+.thumbnail{width:100%;height:auto;margin:0 auto;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
+.float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;
+</style>
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    <div id="grid" class="row flex-grid">
+<style>.box-item{width:25%;padding-left:1%;padding-right:1%;margin:0px;}.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;}.preload{width:100%;}.posttime{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}.pagenavi-page{border:solid 1px #141414;background-color:#292929;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}.pagenavi-page:hover{background-color:#0e0e0e;}.current-page{border:solid 1px #141414;background-color:#0e0e0e;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}</style> 
+{% for post in paginator.posts %}
+        <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <div class="box-body">
+                {% if post.image %}
+                    <div class="cover">
+                        {% include new-post-tag.html date=post.date %}
+                        <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
+                            <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
+                        </a>
+                        <p class="posttime"><script>
+function secondsToHms(d) {
+    d = Number(d);
+    var h = Math.floor(d / 3600);
+    var m = Math.floor(d % 3600 / 60);
+    var s = Math.floor(d % 3600 % 60);
+    return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);
+}
+document.write(secondsToHms({{ post.duracao }}));
+</script></p>
+                    </div>
+                {% endif %}
+                <div class="box-info">
+                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
+                        {% include date.html date=post.date %}
+                    </time>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="titulo" itemprop="name">
+                            {{ post.title }}
+                        </h2>
+                    </a>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <p class="description">{{ post.introduction }}</p>
+                    </a>           
+                </div>
+            </div>
+        </article>
+    {% endfor %}
+    </div>
+    <center>
+{% if paginator.total_pages < 7 %}
+{% if paginator.page == 1 %}
+        <span class="current-page">1</span>
+{% else %}
+        <a href="{{ site.url }}/" class="pagenavi-page">1</a>
+{% endif %}
+{% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+        <span class="current-page">{{ count }}</span>
+    {% else %}
+        <a href="/pagina/{{ count }}/" class="pagenavi-page" title="{{ count }}">{{ count }}</a>
+    {% endif %}
+{% endfor %}
+{% else %}
+{% assign page_start = paginator.page | minus: 2 %}
+{% assign page_end = paginator.page | plus: 2 %}
+{% if page_end > paginator.total_pages %}
+{% assign page_end = paginator.total_pages %}
+{% assign page_start = paginator.page | minus: 4 %}
+{% endif %}
+{% if page_start < 2 %}
+{% assign page_end = paginator.page | plus: 3 %}
+{% assign page_start = paginator.page | minus: 1 %}
+{% endif %}
+{% if page_start == 0 %}
+{% assign page_end = paginator.page | plus: 4 %}
+{% assign page_start = paginator.page %}
+{% endif %}
+{% if page_start == 1 %}
+{% assign page_end = paginator.page | plus: 4 %}
+{% assign page_start = 2 %}
+{% if paginator.page == 1 %}
+        <span class="current-page">1</span>
+{% else %}
+        <a href="{{ site.url }}/" class="pagenavi-page">1</a>
+{% endif %}
+{% endif %}
+{% for count in (page_start..page_end) %}
+    {% if count == paginator.page %}
+        <span class="current-page">{{ count }}</span>
+    {% else %}
+        <a href="/pagina/{{ count }}/" class="pagenavi-page" title="{{ count }}">{{ count }}</a>
+    {% endif %}
+{% endfor %} 
+{% endif %}
+</center>
+</main>
