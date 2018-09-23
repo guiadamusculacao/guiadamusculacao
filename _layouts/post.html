@@ -5,17 +5,7 @@
 {% include head.html %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style>
-.novo-post:after{content:'Novo';text-transform:uppercase;display:inline-block;background:#ff0a16;color:#fff;font-size:.813rem;font-weight:700;line-height:1.5rem;padding:0 .5rem;position:absolute;margin-top:-2.187rem;}
-.thumbnail{width:100%;height:auto;margin:0 auto;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
-.thumbnail:hover{z-index:2;-webkit-transform:scale(1.1);transform:scale(1.1);}
-.corpo-post{width:25%;padding-left:1%;padding-right:1%;margin:0px;}
-.tempo-post{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}
-.link-post{text-decoration:none}
-.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;margin:0px;width:100%;}
-.data-post{margin:0px 0px 20px 0px;color:#9e9e9e;}
-@media only screen and (max-width:600px){
-.corpo-post{width:100%;}
-}
+	.descricao-post{width:100%;background-color:#2f2f2f;}
 </style>
 </head>
 <body class="main-page has-push-menu">
@@ -60,7 +50,9 @@ var ad_idzone = "3129632",
 var ad_idzone = "3129628",
 	 ad_width = "728",
 	 ad_height = "90";
-</script><script type="text/javascript" src="https://ads.exosrv.com/ads.js"></script><noscript><a href="https://main.exosrv.com/img-click.php?idzone=3129628" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=3129628&output=img&type=728x90" width="728" height="90"></a></noscript></div><iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
+</script><script type="text/javascript" src="https://ads.exosrv.com/ads.js"></script><noscript><a href="https://main.exosrv.com/img-click.php?idzone=3129628" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=3129628&output=img&type=728x90" width="728" height="90"></a></noscript></div>
+<iframe src="{{ page.embed }}" sandbox="allow-same-origin allow-forms allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no"></iframe>
+	<div class="descricao-post">{{ post.content }}</div>
 	<div style="text-align:right;display:inline-block;"><a class="videoreport" href="{{ site.url }}/deletado/?q={{ page.url }}">Deletado?</a></div>
 	<div style="text-align:right;display:inline-block;"><a class="videoreport" href="{{ page.video }}#_tabReport">Denunciar</a></div>
 	<img src="{{ post.image }}" width="1px" height="1px"/>
@@ -89,8 +81,8 @@ var ad_idzone = "3129628",
 		<script type="text/javascript" src="https://ads.exosrv.com/ads.js"></script>
 		<noscript><a href="https://main.exosrv.com/img-click.php?idzone=3121494" target="_blank"><img src="https://syndication.exosrv.com/ads-iframe-display.php?idzone=3121494&output=img&type=300x250" width="300" height="250"></a></noscript>		
 	</div>	
-	<div class="anuncio">
-	<script type="text/javascript">
+<div class="anuncio">
+<script type="text/javascript">
 var ad_idzone = "3129638",
 	 ad_width = "300",
 	 ad_height = "250";
@@ -116,70 +108,7 @@ var ad_idzone = "3129638",
 <!-- Anuncio -->	
 {% endif %}
 </article>
-            
-		<!-- Related Posts -->
-		<h4>Videos Relacionados</h4> 
-			<div class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <div id="grid" class="row flex-grid">
-{% assign maxRelated = 8 %}
-{% assign minCommonTags =  2 %}
-{% assign maxRelatedCounter = 0 %}
-
-  {% for post in site.posts %}
-
-    {% assign sameTagCount = 0 %}
-    {% assign commonTags = '' %}
-
-    {% for tag in post.tags %}
-      {% if post.url != page.url %}
-        {% if page.tags contains tag %}
-          {% assign sameTagCount = sameTagCount | plus: 1 %}
-          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-          {% assign commonTags = commonTags | append: tagmarkup %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    {% if sameTagCount >= minCommonTags %}
-    <article class="corpo-post">
-        <div class="box-body">
-        {% if post.image %}
-        {% include new-post-tag.html date=post.date %}
-            <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
-                <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
-            </a>
-            <p class="tempo-post"><script>
-function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}
-document.write(secondsToHms({{ post.duracao }}));
-</script>
-            </p>
-        {% endif %}
-            <div class="box-info">
-                <a class="link-post" href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="titulo" itemprop="name">{{ post.title }}</h2>
-                </a>
-                <div class="data-post">
-                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
-                    <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
-                        {% include date.html date=post.date %}
-                    </time>
-                </div>
-            </div>
-        </div>
-    </article>
-      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-      {% if maxRelatedCounter >= maxRelated %}
-        {% break %}
-      {% endif %}
-    {% endif %}
-
-  {% endfor %}
-
-</div>	
-</div>	
-		<!-- Related Posts -->
-
-
+            {% include videos-relacionados.html %}
             {% include share.html %}
             {% include footer.html %}
             </main>
