@@ -7,15 +7,15 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 .novo-post:after{content:'Novo';text-transform:uppercase;display:inline-block;background:#ff0a16;color:#fff;font-size:.813rem;font-weight:700;line-height:1.5rem;padding:0 .5rem;position:absolute;margin-top:-2.187rem;}
 .thumbnail{width:100%;height:auto;margin:0 auto;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
 .float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;
+.corpo-post{width: 25%;padding-left:1%;padding-right:1%;margin:0px;}
 </style>
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
 <style>.box-item{width:25%;padding-left:1%;padding-right:1%;margin:0px;}.titulo{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color:#fff;text-decoration:none;}.preload{width:100%;}.posttime{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}.pagenavi-page{border:solid 1px #141414;background-color:#292929;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}.pagenavi-page:hover{background-color:#0e0e0e;}.current-page{border:solid 1px #141414;background-color:#0e0e0e;text-decoration:none;color:#fff;padding:6px;border-radius:5px;}</style> 
 {% for post in paginator.posts %}
-        <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <article class="corpo-post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <div class="box-body">
                 {% if post.image %}
-                    <div class="cover">
                         {% include new-post-tag.html date=post.date %}
                         <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
                             <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
@@ -30,7 +30,6 @@ function secondsToHms(d) {
 }
 document.write(secondsToHms({{ post.duracao }}));
 </script></p>
-                    </div>
                 {% endif %}
                 <div class="box-info">
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
