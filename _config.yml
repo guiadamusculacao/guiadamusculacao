@@ -53,8 +53,6 @@ links:
     url: /contato/
   - title: DMCA
     url: /dmca/
-  - title: teste
-    url: /teste.html
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
