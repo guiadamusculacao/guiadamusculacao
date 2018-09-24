@@ -3,5 +3,5 @@ Allow: /*
 Disallow: /imagens/
 Disallow: /pagina/*
 
-Sitemap: http://goodzsex.tk/sitemap.xml
-Sitemap: http://goodzsex.tk/sitemap-video.xml
+Sitemap: https://www.goodzsex.com/sitemap.xml
+Sitemap: https://www.goodzsex.com/sitemap-video.xml
