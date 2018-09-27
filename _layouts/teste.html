@@ -15,6 +15,14 @@ layout: compress
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
     {{ content }}
+            <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'>
+    </script>
+<script>
+$(function() {
+var url_ = new URL(location.href);
+var variavel = url_.searchParams.get(&quot;q&quot;);
+document.write(variavel);
+</script>
             {% for post in site.posts %}
         {% if post.pornstars == page.tag %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
