@@ -5,3 +5,63 @@ layout: pornstar
 pornstar: teste
 description: Confira os videos pornos de teste e muito mais gratuitamente na GoodzSex.
 ---
+<button id="delCookie">DELETE COOKIE</button>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="myModal" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Welcome Message</h4>
+      </div>
+      <div class="modal-body">
+        <p>Your Message Goes here and you only get to see it once!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $("#delCookie").click(function(){
+        del_cookie("cookie");   
+    });
+    
+    console.log(document.cookie);
+    var visit = getCookie("cookie");
+    if (visit == null) {
+        $("#myModal").modal("show");
+        var expire = new Date();
+        expire = new Date(expire.getTime() + 7776000000);
+        document.cookie = "cookie=here; expires=" + expire;
+    }
+});
+
+function del_cookie(name)
+{
+    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+
+function getCookie(c_name) {
+    var c_value = document.cookie;
+    var c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) {
+        c_start = c_value.indexOf(c_name + "=");
+    }
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+}
+</script>
