@@ -8,12 +8,11 @@ module Jekyll
       @name = 'index.html'
 
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), site.config['blog']['tags']['layout'])
+      self.read_yaml(File.join(base, '_layouts'), 'tag-index.html')
       self.data['tag'] = tag
 
-      tag_title_prefix = site.config['blog']['tags']['title_prefix'] || 'blog - tag: '
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tag: '
       self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['filter_tag'] = "#{tag}"
     end
   end
 
@@ -21,11 +20,10 @@ module Jekyll
     safe true
 
     def generate(site)
-      if site.layouts.key? 'tag'
-        dir = site.config['blog']['tags']['url'] || 'blog/tags/'
+      if site.layouts.key? 'tag-index'
+        dir = site.config['tag_dir'] || 'tags'
         site.tags.keys.each do |tag|
-          tag_name = tag.gsub(/\s+/, '-')
-          site.pages << TagPage.new(site, site.source, File.join(dir, tag_name), tag)
+          site.pages << TagPage.new(site, site.source, File.join(dir, tag), tag)
         end
       end
     end
