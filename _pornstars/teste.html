@@ -5,7 +5,10 @@ layout: teste
 pornstar: teste
 description: Confira os videos pornos de teste e muito mais gratuitamente na GoodzSex.
 ---
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<html>
+<head>
+</head>
+<body><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://www.goodzsex.com/path/to/jquery.cookie.js"></script>
 <script src="https://www.goodzsex.com/path/to/bootstrap.js"></script>
 <script src="https://www.goodzsex.com/path/to/bootstrap.bundle.js"></script>
@@ -48,26 +51,23 @@ function getCookie(c_name) {
 }
 </script>
 <style>
-.modal{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000;}
-.modal-dialog{background-color:#fff;}
+.aviso{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000;}
+.aviso-corpo{background-color:#fff;margin:30px;padding:10px;}
+.aviso-titulo{text-transform:uppercase;font-weight:bold;text-align:center;}
+.botao-entrar{text-decoration:none;padding:5px;border:solid 1px #000;background-color:#fff;display:inline-block;margin:2px;cursor:pointer;color:#000;font-weight:bold;}
+.botao-sair{text-decoration:none;padding:5px;border:solid 1px #000;background-color:#fff;display:inline-block;margin:2px;cursor:pointer;color:#000;font-weight:bold;}
 </style>
 <button id="delCookie">DELETE COOKIE</button>
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+<div id="myModal" class="aviso" role="dialog">
+  <div class="aviso-corpo">
 
-    <!-- Modal content-->
-    <div id="myModal" class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Welcome Message</h4>
-      </div>
-      <div class="modal-body">
-        <p>Your Message Goes here and you only get to see it once!</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<center><img src="https://i.imgur.com/U7rERYG.png" alt="GoodzSex Logo" height="50px"><h2 class="aviso-titulo">Conteudo Adulto</h4>
+        <p>Este site contém materiais restritos por idade. Se você tem menos de 18 anos, ou é menor de idade e a localização de onde acessou este site, você não tem autorização para entrar neste site ou acessar qualquer um de seus materiais. Se você tem mais de 18 anos, ou maior de idade no local de onde você está acessando este site, Ao entrar no site você concorda em cumprir todos os Termos e Condições. Você também reconhece e concorda que não está ofendido por nudez ou representações explícitas de atividade sexual.</p>
+<p>
+Ao clicar no botão "ENTRAR" e ao entrar neste site, você concorda com todos os itens acima e certifica, sob pena de perjúrio, que você é um adulto.</p>
+<div class="botao-entrar">ENTRAR</div>
+<a href="https://www.google.com.br/"><div class="botao-sair">SAIR</div></a></center>
       </div>
     </div>
-
-  </div>
-</div>
+</body>
+</html>
