@@ -14,6 +14,15 @@ layout: compress
             <section class="content">
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
+        
+<script type="text/javascript">
+    var url_ = new URL(location.href);
+    var variavel = url_.searchParams.get('q');
+    var postsHREF = [{% for post in site.posts %}{% if post.pornstars == anal %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
+    var postsHREF2 = [{% for post in site.posts %}{% if post.pornstars == variavel %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
+</script>
+        
+        
             {% for post in site.posts %}
         {% if post.pornstars == page.pornstar %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
