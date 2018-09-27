@@ -8,6 +8,9 @@ google_analytics: "UA-124267055-1"
 
 include: ["_pornstar"]
 
+tag_dir : ' tags '
+ tag_title_prefix : ' Tag: '
+
 paginate: 24
 paginate_path: "/pagina/:num/"
 
