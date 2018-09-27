@@ -2,15 +2,6 @@
 layout: main
 description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Teen, Brasileiro, Brazilian Lesbian, Panteras e diversas outras categorias você encontra na GoodzSex!
 ---
-<script type="text/javascript">
-    var url_ = new URL(location.href);
-    var variavel = url_.searchParams.get('q');
-    var postsTAGHREF = [{% for post in site.posts %}{% if post.pornstars == variavel %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGTITLE = [{% for post in site.posts %}{% if post.pornstars == variavel %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGIMAGE = [{% for post in site.posts %}{% if post.pornstars == variavel %}"{{ post.image }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGDURACAO = [{% for post in site.posts %}{% if post.pornstars == variavel %}"{{ post.duracao }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGDATE = [{% for post in site.posts %}{% if post.pornstars == variavel %}"{{ post.date | date_to_xmlschema }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-</script>
 <style>
 .novo-post:after{content:'Novo';text-transform:uppercase;display:inline-block;background:#ff0a16;color:#fff;font-size:.813rem;font-weight:700;line-height:1.5rem;padding:0 .5rem;position:absolute;margin-top:-2.187rem;}
 .thumbnail{width:100%;height:auto;margin:0 auto;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;}
@@ -35,7 +26,7 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 <script type="text/javascript">
     var randomIndexUsed = [];
     var counter = 0;
-    var numberOfPosts = 1;
+    var numberOfPosts = 10;
     while (counter < numberOfPosts)
     {
         var randomIndex;
@@ -52,14 +43,7 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
             postTAGTITLE = postsTAGTITLE[randomIndex];
             postTAGDURACAO = postsTAGDURACAO[randomIndex];
             postTAGDATE = postsTAGDATE[randomIndex];
-            if (counter == (numberOfPosts - 1))
-            {
-                document.write('<article class="corpo-post"><div class="box-body">{% if post.image %}{% include new-post-tag.html date=post.date %}<a href="' + postTAGHREF + '" {%if isnewpost %}class="novo-post"{% endif %}><img src="' + postTAGIMAGE + '" alt="' + postTAGTITLE + ' thumbnail" class="thumbnail"></a><p class="tempo-post"><script>function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}document.write(secondsToHms(' + postTAGDURACAO + '));</script></p>{% endif %}<div class="box-info"><a class="link-post" href="' + postTAGHREF + '"><h2 class="titulo" itemprop="name">' + postTAGTITLE + '</h2></a><div class="data-post"><meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}"><time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">{% include date.html date=post.date %}</time></div></div></div></article>');
-            }
-            else
-            {
-                document.write('<article class="corpo-post"><div class="box-body">{% if post.image %}{% include new-post-tag.html date=post.date %}<a href="' + postTAGHREF + '" {%if isnewpost %}class="novo-post"{% endif %}><img src="' + postTAGIMAGE + '" alt="' + postTAGTITLE + ' thumbnail" class="thumbnail"></a><p class="tempo-post"><script>function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}document.write(secondsToHms(' + postTAGDURACAO + '));</script></p>{% endif %}<div class="box-info"><a class="link-post" href="' + postTAGHREF + '"><h2 class="titulo" itemprop="name">' + postTAGTITLE + '</h2></a><div class="data-post"><meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}"><time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">{% include date.html date=post.date %}</time></div></div></div></article>');
-            }
+            document.write('<article class="corpo-post"><div class="box-body">{% if post.image %}{% include new-post-tag.html date=post.date %}<a href="' + postTAGHREF + '" {%if isnewpost %}class="novo-post"{% endif %}><img src="' + postTAGIMAGE + '" alt="' + postTAGTITLE + ' thumbnail" class="thumbnail"></a><p class="tempo-post"><script>function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}document.write(secondsToHms(' + postTAGDURACAO + '));</script></p>{% endif %}<div class="box-info"><a class="link-post" href="' + postTAGHREF + '"><h2 class="titulo" itemprop="name">' + postTAGTITLE + '</h2></a><div class="data-post"><meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}"><time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">{% include date.html date=post.date %}</time></div></div></div></article>');
             randomIndexUsed.push(randomIndex);
             counter++;
         }
