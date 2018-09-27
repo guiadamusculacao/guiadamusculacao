@@ -1,0 +1,66 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://www.goodzsex.com/path/to/jquery.cookie.js"></script>
+<script src="https://www.goodzsex.com/path/to/bootstrap.js"></script>
+<script src="https://www.goodzsex.com/path/to/bootstrap.bundle.js"></script>
+<script>
+  $(document).ready(function () {
+    $("#delCookie").click(function(){
+        del_cookie("cookie");   
+    });
+    
+    console.log(document.cookie);
+    var visit = getCookie("cookie");
+    if (visit == null) {
+        $("#myModal").show();
+        var expire = new Date();
+        expire = new Date(expire.getTime() + 7776000000);
+        document.cookie = "cookie=here; expires=" + expire;
+    }
+});
+function del_cookie(name)
+{
+    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+function getCookie(c_name) {
+    var c_value = document.cookie;
+    var c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) {
+        c_start = c_value.indexOf(c_name + "=");
+    }
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+}
+</script>
+<style>
+.aviso{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000;background-image:url(https://i.imgur.com/keQf4La.png);background-size:cover;}
+.aviso-corpo{background-color:#fff;margin:100px;padding:25px;vertical-align:middle;color:#000;}
+.aviso-titulo{text-transform:uppercase;font-weight:bold;text-align:center;}
+.botao-entrar{text-decoration:none;padding:5px;border:solid 1px #676767;background-color:#008803;display:inline-block;margin:2px;cursor:pointer;color:#fff;font-weight:bold;}
+.botao-sair{text-decoration:none;padding:5px;border:solid 1px #676767;background-color:#f00;display:inline-block;margin:2px;cursor:pointer;color:#fff;font-weight:bold;}
+.botao-entrar:hover{background-color:#004e02;}
+.botao-sair:hover{background-color:#ab0000;}
+@media only screen and (max-width:600px){
+.aviso-corpo{background-color:#fff;margin:20px;padding:5px;vertical-align:middle;color:#000;}
+.aviso{background-image:url(https://i.imgur.com/DRYdUZC.png);}
+}
+</style>
+<div id="myModal" class="aviso">
+  <div class="aviso-corpo">
+
+<center><img src="https://i.imgur.com/U7rERYG.png" alt="GoodzSex Logo" height="50px"><h2 class="aviso-titulo">Conteudo Adulto</h4>
+        <p>Este site contém materiais restritos por idade. Se você tem menos de 18 anos, ou é menor de idade e a localização de onde acessou este site, você não tem autorização para entrar neste site ou acessar qualquer um de seus materiais. Se você tem mais de 18 anos, ou maior de idade no local de onde você está acessando este site, Ao entrar no site você concorda em cumprir todos os Termos e Condições. Você também reconhece e concorda que não está ofendido por nudez ou representações explícitas de atividade sexual.</p>
+<p>
+Ao clicar no botão "ENTRAR" e ao entrar neste site, você concorda com todos os itens acima e certifica, sob pena de perjúrio, que você é um adulto.</p>
+<div class="botao-entrar" onclick="$('#myModal').hide();">ENTRAR</div>
+<a href="https://www.google.com.br/"><div class="botao-sair">SAIR</div></a></center>
+      </div>
+    </div>
