@@ -74,7 +74,7 @@
 <script type="text/javascript">
     var url_ = new URL(location.href);
     var variavel = url_.searchParams.get('q');
-    var postsTAGHREF = [{% for post in site.posts %}{% if post.tags == variavel %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
+    var postsTAGHREF = [{% for post in site.tags.variavel %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
     var postsTAGTITLE = [{% for post in site.posts %}{% if post.tags == variavel %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
     var postsTAGIMAGE = [{% for post in site.posts %}{% if post.tag == variavel %}"{{ post.image }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
     var postsTAGDURACAO = [{% for post in site.posts %}{% if post.tags == variavel %}"{{ post.duracao }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
