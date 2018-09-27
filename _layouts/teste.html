@@ -22,8 +22,8 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 <script type="text/javascript">
     var url_ = new URL(location.href);
     var variavel = url_.searchParams.get('q');
-    var teste = {% for post in site.tags.' + variavel + ' %}
-    var teste2 = {% endfor %}
+    var teste = {% for post in site.tags.' + variavel + ' %};
+    var teste2 = {% endfor %};
     var postsTAGHREF = [teste"{{ post.url }}"{% unless forloop.last %},{% endunless %}teste2];
     var postsTAGTITLE = [{% for post in site.posts %}{% if post.tags == variavel %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
     var postsTAGIMAGE = [{% for post in site.posts %}{% if post.tag == variavel %}"{{ post.image }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
