@@ -9,9 +9,6 @@ description: Confira os videos pornos de teste e muito mais gratuitamente na Goo
 <script src="https://www.goodzsex.com/path/to/jquery.cookie.js"></script>
 <script src="https://www.goodzsex.com/path/to/bootstrap.js"></script>
 <script src="https://www.goodzsex.com/path/to/bootstrap.bundle.js"></script>
-<link rel="stylesheet" type="text/css" href="https://www.goodzsex.com/path/to/bootstrap-grid.css">
-<link rel="stylesheet" type="text/css" href="https://www.goodzsex.com/path/to/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="https://www.goodzsex.com/path/to/bootstrap-reboot.css">
 <script>
   $(document).ready(function () {
     $("#delCookie").click(function(){
@@ -27,12 +24,10 @@ description: Confira os videos pornos de teste e muito mais gratuitamente na Goo
         document.cookie = "cookie=here; expires=" + expire;
     }
 });
-
 function del_cookie(name)
 {
     document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
-
 function getCookie(c_name) {
     var c_value = document.cookie;
     var c_start = c_value.indexOf(" " + c_name + "=");
@@ -52,6 +47,9 @@ function getCookie(c_name) {
     return c_value;
 }
 </script>
+<style>
+.modal{display:none;}
+</style>
 <button id="delCookie">DELETE COOKIE</button>
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
