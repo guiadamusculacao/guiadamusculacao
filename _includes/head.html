@@ -75,14 +75,9 @@
 <script type="text/javascript">
     var url_ = new URL(location.href);
     var variavel = url_.searchParams.get('q');
-    var postsTAGHREF = [{% for post in site.tags.variavel %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTAGHREF2 = [{% for post in site.tags.tag[variavel] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTAGHREF3 = [{% for post in site.tags[variavel] %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTAGHREF4 = [{% for post in site.posts %}"{% if post.tags == variavel %}{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
     var postsTAGHREF5 = [{% for post in site.posts %}"{% if post.tag == variavel %}{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGHREF6 = [{% for post in site.posts %}"{% if post.tags == 'variavel' %}{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGTITLE = [{% for post in site.posts %}{% if post.tags == variavel %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
+    var postsTAGTITLE = [{% for post in site.posts %}{% if post.tag == variavel %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
     var postsTAGIMAGE = [{% for post in site.posts %}{% if post.tag == variavel %}"{{ post.image }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGDURACAO = [{% for post in site.posts %}{% if post.tags == variavel %}"{{ post.duracao }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
-    var postsTAGDATE = [{% for post in site.posts %}{% if post.tags == variavel %}"{{ post.date | date_to_xmlschema }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
+    var postsTAGDURACAO = [{% for post in site.posts %}{% if post.tag == variavel %}"{{ post.duracao }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
+    var postsTAGDATE = [{% for post in site.posts %}{% if post.tag == variavel %}"{{ post.date | date_to_xmlschema }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}];
 </script>
