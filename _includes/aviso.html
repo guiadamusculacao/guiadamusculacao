@@ -14,7 +14,7 @@
         $("#myModal").show();
         var expire = new Date();
         expire = new Date(expire.getTime() + 7776000000);
-        document.cookie = "cookie=here; expires=" + expire;
+        document.cookie = "cookie=here; expires=" + expire + "; path=/";
     }
 });
 function del_cookie(name)
