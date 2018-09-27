@@ -16,7 +16,7 @@ layout: compress
     <div id="grid" class="row flex-grid">
     {{ content }}
             {% for post in site.posts %}
-        {% if post.pornstars == page.pornstar %}
+        {% if post.pornstars == page.tag %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <div class="box-body">
                 {% if post.image %}
