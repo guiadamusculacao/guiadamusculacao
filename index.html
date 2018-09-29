@@ -24,12 +24,12 @@ description: Overwatch, Brasil, Hentai, Lesbian, Anal, Puta, Brazilian, Mom, Tee
 <div id="grid" class="row flex-grid">
 <style>.box-item{width:25%;padding-left:1%;padding-right:1%;margin:0px;}.preload{width:100%;}.posttime{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}.pagenavi-page{border:solid 1px #fff;background-color:transparent;text-decoration:none;color:#fff;padding:6px;font-weight:bold;}.pagenavi-page:hover{background-color:#fff;color:#141414;}.current-page{border:solid 1px #fff;background-color:#fff;text-decoration:none;color:#141414;padding:6px;font-weight:bold;}</style> 
 {% for post in paginator.posts %}
-    <article class="corpo-post">
+    <article class="box-item">
         <div class="box-body">
         {% if post.image %}
         {% include new-post-tag.html date=post.date %}
             <a href="{{ post.url }}" {%if isnewpost %}class="novo-post"{% endif %}>
-                <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="thumbnail">
+                <img src="{{ post.image }}" alt="{{ post.title }} thumbnail" class="preload">
             </a>
             <p class="tempo-post"><script>
 function secondsToHms(d){d=Number(d);var h=Math.floor(d / 3600);var m=Math.floor(d % 3600 / 60);var s=Math.floor(d % 3600 % 60);return ('0' + h).slice(-2) + ":" + ('0' + m).slice(-2) + ":" + ('0' + s).slice(-2);}
