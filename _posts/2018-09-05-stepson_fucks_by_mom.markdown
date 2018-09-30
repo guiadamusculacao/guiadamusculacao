@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stepson fucks by mom"
-image: '/thumbs/stepson_fucks_by_mom.jpg'
+image: 'https://i.imgur.com/1vf3z2I.png'
 embed: 'https://www.xvideos.com/embedframe/33740503'
 video: https://www.xvideos.com/video33740503/stepson_fucks_by_mom
 duracao: 392
