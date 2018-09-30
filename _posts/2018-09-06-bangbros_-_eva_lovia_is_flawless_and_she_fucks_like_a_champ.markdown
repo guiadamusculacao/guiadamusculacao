@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BANGBROS - Eva Lovia Is Flawless And She Fucks Like A Champ"
-image: '/thumbs/bangbros_-_eva_lovia_is_flawless_and_she_fucks_like_a_champ.jpg'
+image: 'https://i.imgur.com/W9Ao4nV.png'
 embed: 'https://www.xvideos.com/embedframe/33892891'
 video: https://www.xvideos.com/video33892891/bangbros_-_eva_lovia_is_flawless_and_she_fucks_like_a_champ
 duracao: 720
