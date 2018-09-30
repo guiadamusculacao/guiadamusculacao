@@ -7,7 +7,7 @@ layout: null
    <url>
      <loc>{{ site.url }}{{ post.url }}</loc>
      <video:video>
-       <video:thumbnail_loc>{{ site.url }}{{ post.image }}</video:thumbnail_loc>
+       <video:thumbnail_loc>{{ post.image }}</video:thumbnail_loc>
        <video:title>{{ post.title }}</video:title>
        <video:description>{{ post.title }}</video:description>
        <video:player_loc allow_embed="yes">{{ post.embed }}</video:player_loc>
