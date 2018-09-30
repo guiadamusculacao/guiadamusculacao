@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VID-20180312-WA0081"
-image: '/thumbs/vid-20180312-wa0081.jpg'
+image: 'https://i.imgur.com/ZPy4h73.png'
 embed: 'https://www.xvideos.com/embedframe/34645449'
 video: https://www.xvideos.com/video34645449/vid-20180312-wa0081
 duracao: 35
