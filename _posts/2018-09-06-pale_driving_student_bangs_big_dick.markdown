@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pale driving student bangs big dick"
-image: '/thumbs/pale_driving_student_bangs_big_dick.jpg'
+image: 'https://i.imgur.com/w6cF4Lb.png'
 embed: 'https://www.xvideos.com/embedframe/33768927'
 video: https://www.xvideos.com/video33768927/pale_driving_student_bangs_big_dick
 duracao: 382
