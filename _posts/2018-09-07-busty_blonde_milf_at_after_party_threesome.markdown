@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Busty blonde Milf at after party threesome"
-image: '/thumbs/busty_blonde_milf_at_after_party_threesome.jpg'
+image: 'https://i.imgur.com/oHFI7v4.png'
 embed: 'https://www.xvideos.com/embedframe/34307245'
 video: https://www.xvideos.com/video34307245/busty_blonde_milf_at_after_party_threesome
 duracao: 401
