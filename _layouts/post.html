@@ -30,10 +30,6 @@ document.write(secondsToHms({{ page.duracao }}));
 {% for tag in page.tags %}
                     <a id="tag" class="atag" href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                     {% endfor %}
-                   
-<script>$(document).ready(function(){var str=document.getElementById("pornstartag").innerHTML;var res=str.replace("-", " ");document.getElementById("pornstartag").innerHTML = res;});</script>
-<script>$(document).ready(function(){var str=document.getElementById("tag").innerHTML;var res=str.replace("-", " ");document.getElementById("tag").innerHTML = res;});</script>
-                    
                     </div>
                 {% if page.embed %}
 <div class="anunciosuperiormobile"><center>
@@ -89,6 +85,7 @@ var ad_idzone = "3129632",
             {% include videos-relacionados.html %}
             {% include share.html %}
             {% include footer.html %}
+		<script>$(document).ready(function(){var str=document.getElementById("pornstartag").innerHTML;var res=str.replace("-", " ");document.getElementById("pornstartag").innerHTML = res;});</script>                    
             </main>
             </section>
     </body>
