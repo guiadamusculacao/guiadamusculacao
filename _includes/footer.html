@@ -6,13 +6,14 @@
 		    .footerli{text-decoration:none;font-size:20px;color:#fff;}
 		    @media only screen and (max-width: 600px) {.bannerfooter{display:none;}}
 	    </style>
-	    <ul class="footerlinks">
-<div class="footer"
+<div class="footer">
+	<ul class="footerlinks">
         {% for link in site.links %}
           <li class="footerli"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
         <li class="footerli"><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
     </ul>
+	</div>
    <div class="bannerfooter">
 <script type="text/javascript">
 var ad_idzone = "3141272",
