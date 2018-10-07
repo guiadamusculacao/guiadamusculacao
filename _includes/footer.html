@@ -9,9 +9,9 @@
 <div class="footer">
 	<ul class="footerlinks">
         {% for link in site.links %}
-          <li class="footerli"><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          <li><a class="footerli" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
-        <li class="footerli"><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
+        <li><a class="footerli" class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
     </ul>
 	</div>
    <div class="bannerfooter">
