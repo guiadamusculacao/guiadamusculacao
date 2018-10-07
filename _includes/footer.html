@@ -1,17 +1,17 @@
 <footer id="footer">
    	    <style>
 		    .footer{padding:20px 150px 20px 150px;background-color:#0c0c0c;margin-bottom:20px;}
-		    .footerlinks{padding: 20px 150px 20px 150px;margin:0px;}
+		    .footerlinks{margin:0px;}
 		    .bannerfooter{display:block;}
-		    .footerli{text-decoration:none;font-size:20px;color:#fff;}
+		    .footerlia{text-decoration:none;font-size:20px;color:#fff;}
 		    @media only screen and (max-width: 600px) {.bannerfooter{display:none;}}
 	    </style>
 <div class="footer">
 	<ul class="footerlinks">
         {% for link in site.links %}
-          <li><a class="footerli" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          <li class="footerli"><a class="footerlia" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
         {% endfor %}
-        <li><a class="footerli" class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
+        <li class="footerli"><a class="footerlia" class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
     </ul>
 	</div>
    <div class="bannerfooter">
