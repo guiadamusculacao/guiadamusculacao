@@ -11,7 +11,7 @@ include: ["_pornstar"]
 tag_dir: 'tags'
 tag_title_prefix: 'Tag:'
 
-paginate: 25
+paginate: 24
 paginate_path: "/pagina/:num/"
 
 blog:
