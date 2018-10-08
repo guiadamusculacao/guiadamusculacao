@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My friend wife"
-image: '/thumbs/my_friend_wife.jpg'
+image: 'https://i.imgur.com/tUTtcQ7.jpg'
 embed: 'https://www.xvideos.com/embedframe/35210399'
 video: https://www.xvideos.com/video35210399/my_friend_wife
 duracao: 361
