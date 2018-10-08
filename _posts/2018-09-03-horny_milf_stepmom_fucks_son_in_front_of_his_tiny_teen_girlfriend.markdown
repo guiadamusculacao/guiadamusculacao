@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Horny MILF Stepmom Fucks Son In Front Of His Tiny Teen Girlfriend"
-image: '/thumbs/horny_milf_stepmom_fucks_son_in_front_of_his_tiny_teen_girlfriend.jpg'
+image: 'https://i.imgur.com/fgAkRpY.png'
 embed: 'https://www.xvideos.com/embedframe/34554211'
 video: https://www.xvideos.com/video34554211/horny_milf_stepmom_fucks_son_in_front_of_his_tiny_teen_girlfriend
 duracao: 480
