@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "morena levando pau no bundao dessa safada"
-image: '/thumbs/morena_levando_pau_no_bundao_dessa_safada.jpg'
+image: 'https://i.imgur.com/U1oPKuv.jpg'
 embed: 'https://www.xvideos.com/embedframe/35276577'
 video: https://www.xvideos.com/video35276577/morena_levando_pau_no_bundao_dessa_safada
 duracao: 105
