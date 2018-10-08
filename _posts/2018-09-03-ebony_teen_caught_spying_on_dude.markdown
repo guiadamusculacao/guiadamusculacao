@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ebony Teen Caught Spying on Dude"
-image: '/thumbs/ebony_teen_caught_spying_on_dude.jpg'
+image: 'https://i.imgur.com/u5bLN5Q.png'
 embed: 'https://www.xvideos.com/embedframe/34657801'
 video: https://www.xvideos.com/video34657801/ebony_teen_caught_spying_on_dude
 duracao: 476
