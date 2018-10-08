@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "No cu naaaaaoo, aí dói"
-image: '/thumbs/no_cu_naaaaaoo_ai_doi.jpg'
+image: 'https://i.imgur.com/BanLpgY.png'
 embed: 'https://www.xvideos.com/embedframe/34474643'
 video: https://www.xvideos.com/video34474643/no_cu_naaaaaoo_ai_doi
 duracao: 56
