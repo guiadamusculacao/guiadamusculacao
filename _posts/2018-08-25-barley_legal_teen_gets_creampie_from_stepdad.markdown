@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Barley Legal Teen Gets Creampie From Stepdad"
-image: '/thumbs/barley_legal_teen_gets_creampie_from_stepdad.jpg'
+image: 'https://i.imgur.com/vu7pRgk.jpg'
 embed: 'https://www.xvideos.com/embedframe/35963847'
 video: https://www.xvideos.com/video35963847/barley_legal_teen_gets_creampie_from_stepdad.mp4
 duracao: 1401
