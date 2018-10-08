@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Phoenix Marie, Abella Danger In Sexy Salon Slut"
-image: '/thumbs/phoenix_marie_abella_danger_in_sexy_salon_sluts.jpg'
+image: 'https://i.imgur.com/Bx8j9tT.jpg'
 embed: 'https://www.xvideos.com/embedframe/35615147'
 video: https://www.xvideos.com/video35615147/phoenix_marie_abella_danger_in_sexy_salon_sluts
 duracao: 477
