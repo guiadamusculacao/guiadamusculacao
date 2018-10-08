@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cassidy Banks Her Ass For BF"
-image: '/thumbs/cassidy_banks_her_ass_for_bf.jpg'
+image: 'https://i.imgur.com/5ZHEBtU.jpg'
 embed: 'https://www.xvideos.com/embedframe/35496615'
 video: https://www.xvideos.com/video35496615/cassidy_banks_her_ass_for_bf
 duracao: 449
