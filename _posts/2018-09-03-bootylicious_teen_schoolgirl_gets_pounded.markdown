@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bootylicious teen schoolgirl gets pounded"
-image: '/thumbs/bootylicious_teen_schoolgirl_gets_pounded.jpg'
+image: 'https://i.imgur.com/RMY08ic.jpg'
 embed: 'https://www.xvideos.com/embedframe/34376379'
 video: https://www.xvideos.com/video34376379/bootylicious_teen_schoolgirl_gets_pounded
 duracao: 373
