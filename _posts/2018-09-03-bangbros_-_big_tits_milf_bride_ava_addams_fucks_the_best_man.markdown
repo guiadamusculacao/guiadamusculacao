@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BANGBROS - Big Tits MILF Bride Ava Addams Fucks The Best Man"
-image: '/thumbs/bangbros_-_big_tits_milf_bride_ava_addams_fucks_the_best_man.jpg'
+image: 'https://i.imgur.com/Ty5hCDc.jpg'
 embed: 'https://www.xvideos.com/embedframe/34664335'
 video: https://www.xvideos.com/video34664335/bangbros_-_big_tits_milf_bride_ava_addams_fucks_the_best_man
 duracao: 720
