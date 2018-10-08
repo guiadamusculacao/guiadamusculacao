@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dude Fucks Teen Girlfriend In Ass To Get Her Off Phone"
-image: '/thumbs/dude_fucks_teen_girlfriend_in_ass_to_get_her_off_phone.jpg'
+image: 'https://i.imgur.com/aWET9CV.png'
 embed: 'https://www.xvideos.com/embedframe/34940435'
 video: https://www.xvideos.com/video34940435/dude_fucks_teen_girlfriend_in_ass_to_get_her_off_phone
 duracao: 480
