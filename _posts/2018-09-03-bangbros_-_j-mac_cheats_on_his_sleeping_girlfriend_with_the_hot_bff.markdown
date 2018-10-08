@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BANGBROS - J-Mac Cheats On His Sleeping Girlfriend With The Hot BFF"
-image: '/thumbs/bangbros_-_j-mac_cheats_on_his_sleeping_girlfriend_with_the_hot_bff.jpg'
+image: 'https://i.imgur.com/BWzS9tc.jpg'
 embed: 'https://www.xvideos.com/embedframe/34339451'
 video: https://www.xvideos.com/video34339451/bangbros_-_j-mac_cheats_on_his_sleeping_girlfriend_with_the_hot_bff
 duracao: 720
