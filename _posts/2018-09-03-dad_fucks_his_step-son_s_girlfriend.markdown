@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dad Fucks His Step-Son's Girlfriend"
-image: '/thumbs/dad_fucks_his_step-son_s_girlfriend.jpg'
+image: 'https://i.imgur.com/IktzD05.png'
 embed: 'https://www.xvideos.com/embedframe/34655135'
 video: https://www.xvideos.com/video34655135/dad_fucks_his_step-son_s_girlfriend
 duracao: 482
