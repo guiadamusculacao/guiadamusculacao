@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cory Chase, Uma Jolie In Threesome With Stepmom And BF"
-image: '/thumbs/cory_chase_uma_jolie_in_threesome_with_stepmom_and_bf.jpg'
+image: 'https://i.imgur.com/7eXZXc6.jpg'
 embed: 'https://www.xvideos.com/embedframe/35239563'
 video: https://www.xvideos.com/video35239563/cory_chase_uma_jolie_in_threesome_with_stepmom_and_bf
 duracao: 480
