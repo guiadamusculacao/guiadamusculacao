@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "(Devyn Cole) - Sexy Deal The Stepsister - Latina Sex Tapes"
-image: '/thumbs/devyn_cole_-_sexy_deal_the_stepsister_-_latina_sex_tapes.jpg'
+image: 'https://i.imgur.com/wv4JaYx.jpg'
 embed: 'https://www.xvideos.com/embedframe/35576485'
 video: https://www.xvideos.com/video35576485/_devyn_cole_-_sexy_deal_the_stepsister_-_latina_sex_tapes
 duracao: 470
