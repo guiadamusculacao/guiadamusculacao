@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DigitalPlayground - Rage Quit with (Alex D Eva Notty)"
-image: '/thumbs/digitalplayground_-_rage_quit_with_alex_d_eva_notty_.jpg'
+image: 'https://i.imgur.com/vfaurn2.jpg'
 embed: 'https://www.xvideos.com/embedframe/36158457'
 video: https://www.xvideos.com/video36158457/digitalplayground_-_rage_quit_with_alex_d_eva_notty_
 duracao: 480
