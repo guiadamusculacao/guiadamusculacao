@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Corno não aguentou 30 segundos"
-image: '/thumbs/corno-nao-aguentou-30-segundos.jpg'
+image: 'https://i.imgur.com/sydN77s.jpg'
 embed: 'https://www.xvideos.com/embedframe/36069471'
 video: https://www.xvideos.com/video36069471/corno_nao_aguentou_30_segundos
 duracao: 31
