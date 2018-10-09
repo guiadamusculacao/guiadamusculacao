@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beautiful teenie perp drilled rougly to avoid felony charge"
-image: '/thumbs/beautiful-teenie-perp-drilled-rougly-to-avoid-felony-charge.jpg'
+image: 'https://i.imgur.com/myMz0z6.jpg'
 embed: 'https://www.xvideos.com/embedframe/37173787'
 video: https://www.xvideos.com/video37173787/beautiful_teenie_perp_drilled_rougly_to_avoid_felony_charge
 duracao: 500
