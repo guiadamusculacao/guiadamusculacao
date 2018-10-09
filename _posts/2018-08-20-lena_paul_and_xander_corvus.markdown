@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lena Paul e Xander Corvus"
-image: '/thumbs/lena_paul_and_xander_corvus.jpg'
+image: 'https://i.imgur.com/9Sf9Mjy.jpg'
 embed: 'https://www.xvideos.com/embedframe/37694907'
 video: https://www.xvideos.com/video37694907/lena_paul_and_xander_corvus
 duracao: 420
