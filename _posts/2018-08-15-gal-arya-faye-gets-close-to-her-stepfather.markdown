@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gal Arya Faye Gets Close To Her Stepfather"
-image: '/thumbs/gal-arya-faye-gets-close-to-her-stepfather.jpg'
+image: 'https://i.imgur.com/yXSXYxT.jpg'
 category: 'mobile'
 embed: 'https://www.xvideos.com/embedframe/36673165'
 video: 'https://www.xvideos.com/video36673165/gal_arya_faye_gets_close_to_her_stepfather'
