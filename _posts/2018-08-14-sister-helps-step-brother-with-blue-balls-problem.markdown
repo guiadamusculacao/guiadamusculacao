@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Sister helps step brother with blue balls problem"
-image: '/thumbs/sister-helps-step-brother-with-blue-balls-problem.jpg'
-category: 'mobile'
+image: 'https://i.imgur.com/hQYG3cD.jpg'
 embed: 'https://www.xvideos.com/embedframe/38018075'
 video: 'https://www.xvideos.com/video38018075/sister_helps_step_brother_with_blue_balls_problem'
 duracao: 955
