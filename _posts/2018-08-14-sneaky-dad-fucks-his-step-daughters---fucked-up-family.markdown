@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sneaky dad fucks his step daughters - fucked up family"
-image: '/thumbs/sneaky-dad-fucks-his-step-daughters---fucked-up-family.jpg'
+image: 'https://i.imgur.com/ukG2UMV.jpg'
 category: 'mobile'
 embed: 'https://www.xvideos.com/embedframe/37857881'
 video: 'https://www.xvideos.com/video37857881/sneaky_dad_fucks_his_step_daughters_-_fucked_up_family'
