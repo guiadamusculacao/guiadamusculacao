@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VIXEN Dirty Couple Can't Stop Fucking"
-image: '/thumbs/vixen_dirty_couple_can_t_stop_fucking.jpg'
+image: 'https://i.imgur.com/bNGA9hR.jpg'
 embed: 'https://www.xvideos.com/embedframe/37977253'
 video: https://www.xvideos.com/video37977253/vixen_dirty_couple_can_t_stop_fucking
 duracao: 721
