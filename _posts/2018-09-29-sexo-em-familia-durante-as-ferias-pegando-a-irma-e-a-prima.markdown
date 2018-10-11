@@ -9,6 +9,6 @@ tags: 'hardcore sexy sucking blowjob wet horny big-cock big-dick'
 descricao: 'Pegando a irmã durante as férias em um sexo em família. Irmão safado faz sexo com a irmã e a amiga dela enquanto os pais dormem no lado.'
 descricaolonga: 'Pegando a irmã durante as férias em um sexo em família. Irmão safado faz sexo com a irmã e a amiga dela enquanto os pais dormem na cama ao lado e quase pegam eles no flagra fazendo sexo.<br/>
 A irmã loira safada e começa a chupar o irmão, que logo em seguida fica pegando a irmã de jeito até a amiga pegar os dois no flagra e entrar na diversão.<br/>
-Logo em seguida o irmão chega no quarto onde a família está dormindo e começa a fuder com a irmã e a amiga.'
+Logo em seguida o irmão chega no quarto onde a família está dormindo e começa a foder com a irmã e a amiga.'
 ---
 <a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"><img src="{{ page.image }}" /></a>
