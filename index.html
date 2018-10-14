@@ -23,6 +23,8 @@ main{margin-left:10px;margin-right:10px;}
 }
 </style>
 <style>.box-item{width:20%;padding-left:1%;padding-right:1%;margin:0px;}.preload{width:100%;}.posttime{float:right;position:relative;display:inline-block;background:#141414;color:#fff;font-weight:700;padding:5px;margin-top:-2.187rem;line-height:unset;}.pagenavi-page{border:solid 1px #fff;background-color:transparent;text-decoration:none;color:#fff;padding:6px;font-weight:bold;}.pagenavi-page:hover{background-color:#fff;color:#141414;}.current-page{border:solid 1px #fff;background-color:#fff;text-decoration:none;color:#141414;padding:6px;font-weight:bold;}</style> 
+<style>.lateral-esquerda{width:150px;position:fixed;left:0px;background-image:url(https://i.imgur.com/zGBZC28.png);background-attachment:fixed;z-index:-1;height:100%;background-size:auto 100%;background-repeat:no-repeat;}.lateral-direita{width:150px;position:fixed;right:0px;background-image:url(https://i.imgur.com/PW4RKjA.png);background-attachment:fixed;z-index:-1;height:100%;background-size:auto 100%;background-repeat:no-repeat;}@media only screen and (max-width:600px){.lateral-esquerda{display:none;}.lateral-direita{display:none;}}</style>
+<div class="lateral-esquerda"></div>
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
 <div id="grid" class="row flex-grid">
 {% for post in paginator.posts %}
@@ -56,3 +58,4 @@ document.write(secondsToHms({{ post.duracao }}));
 </div>
 {% include paginacao.html %}
 </main>
+<div class="lateral-direita"></div>
