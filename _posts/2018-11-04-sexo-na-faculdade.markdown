@@ -2,7 +2,7 @@
 layout: post
 title: 'Sexo na faculdade'
 image: 'https://i.imgur.com/2YJ704C.jpg'
-embed: 'http://www.xvideos.com/video41013119/novinha_da_universidade_transando_com_o_professor'
+embed: 'https://www.xvideos.com/embedframe/41013119'
 video: 'https://www.xvideos.com/video41013119/novinha_da_universidade_transando_com_o_professor'
 duracao: '105'
 tags: 'putinha professor vagabunda novinha aluna universidade'
