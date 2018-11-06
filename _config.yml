@@ -1,9 +1,9 @@
 # Site Settings
-title: Videos Amadores - GoodzSex
-email: goodzsexporn@gmail.com
+title: Guia da Musculação
+email: guiadamusculacaocontato@gmail.com
 description: Some text about your blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.goodzsex.com" # the base hostname & protocol for your site
+url: "https://www.guiadamusculacao.com" # the base hostname & protocol for your site
 google_analytics: "UA-124267055-1"
 
 include: ["_pornstar"]
@@ -21,7 +21,7 @@ blog:
         layout: tag.html
 
 # User Settings
-username: GoodzSex
+username: Guia da Musculçaão
 user_description: Some text about you.
 disqus_username: goodzsex
 
