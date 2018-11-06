@@ -20,6 +20,7 @@ description:
 <img src="https://i.imgur.com/ZhJMBoS.png" style="width:200px;position:absolute;left:200px;" alt="Black Friday"/>
 <img src="https://i.imgur.com/9LYrqfI.png" style="width:200px;border-radius:100%;" alt="Guia da Musculação Icone"/>
 <p><b>Guia da Musculação: Um esporte do Corpo</b></p>
+<a class="buybutton" href="#buy"><button class="cadastrobotao2">CADASTRAR</button></a>
 </div>
 <div class="main2">
   <div class="main2-content"><img src="https://i.imgur.com/nJgMyzk.png" style="width:300px;max-width:-webkit-fill-available;border-radius:5px;" alt="Guia da Musculação Súmario"/></div>
@@ -32,7 +33,7 @@ description:
 - Descanso</p>
   </div>
 </div>
-<div class="main3">
+<div class="main3" id="buy">
 <p style="font-size:30px;margin:2px;">Aproveite a promoção de Black Friday!</p>
 <p style="font-size:20px;margin:2px;text-decoration:line-through;">De R$15,00</p>
 <p style="font-size:32px;margin:2px;">Por R$9,99</p>
@@ -46,3 +47,41 @@ description:
  </script> 
  <a class="buybutton" onclick="return false;" href="https://pay.hotmart.com/E6539474V?checkoutMode=2" class="hotmart-fb hotmart__button-checkout">Comprar Agora</a> 
 </div>
+<script>
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+</script>
