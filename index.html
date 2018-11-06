@@ -51,7 +51,7 @@ description:
 <script>
 $(document).ready(function() {
 	$('#buybutton').click(function(){
-		$('html, body').animate({scrollTop:0}, 'slow');
+		$('html, body').animate({scrollTop:$('#buy').offset().top }, 'slow');
 		return false;
 	});
 });
