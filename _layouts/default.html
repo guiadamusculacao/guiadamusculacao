@@ -5,23 +5,12 @@ layout: compress
 <!DOCTYPE html>
 <html lang="pt-br" itemscope itemtype="http://schema.org/WebPage">
     <head>
-    {% include description-page.html %}
     {% include head.html %}
     </head>
     <body class="has-push-menu">
-        {% include svg-icons.html %}
-        {% include header.html %}
             <section class="content">
                 {{ content }}
             </section>
-        {% include footer2.html %}
-        <script>
-$(document).ready(function() {
-var url_ = new URL(location.href);
-var variavel = url_.searchParams.get("q");
-$("#link").val('{{ site.url }}' + variavel);
-});
-</script>
     </body>
 </html>
 
