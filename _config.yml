@@ -3,10 +3,10 @@ title: Guia da Musculação
 email: guiadamusculacaocontato@gmail.com
 description: Some text about your blog.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.guiadamusculacao.com" # the base hostname & protocol for your site
+url: "https://guiadamusculacao.github.io/" # the base hostname & protocol for your site
 google_analytics: "UA-124267055-1"
 
-include: ["_pornstar"]
+include: ["_pages"]
 
 tag_dir: 'tags'
 tag_title_prefix: 'Tag:'
@@ -42,20 +42,6 @@ permalink: /:title/
 # Plugins
 gems:
   - jemoji
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Inicio
-    url: /
-  - title: Sobre
-    url: /sobre/
-  - title: Cadastro
-    url: /cadastro/
-  - title: Contato
-    url: /contato/
-  - title: DMCA
-    url: /dmca/
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
