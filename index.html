@@ -7,7 +7,7 @@ description:
 <div class="header">
 	<div class="header-titulo"><img src="https://i.imgur.com/9LYrqfI.png" style="width:30px;border-radius:100%;" alt="Guia da Musculação Icone"></div>
 	<div class="header-titulo"><a href="{{ site.url }}"><b>Guia da Musculação</b></a></div>
-	<div class="menu" id="header-item" onclick="menufunction()">||</div>
+	<div class="menu" id="header-item" onclick="menufunction()">|||</div>
 	<a href="{{ site.url }}/previa/"><div class="header-item" id="header-item1" >Prévia</div></a>
 	<a href="{{ site.url }}/perguntas-frequentes/"><div class="header-item" id="header-item2" >Perguntas Frequentes</div></a>
 	<a href="{{ site.url }}"><div class="header-item" id="header-item3" >Pagina Inicial</div></a>
@@ -16,6 +16,15 @@ description:
 			document.getElementById('header-item1').style.cssText = 'display: block;float: left;';
 			document.getElementById('header-item2').style.cssText = 'display: block;float: left;';
 			document.getElementById('header-item3').style.cssText = 'display: block;float: left;';
+			var headeritem1 = $('.header-item1').css('display');
+			if (display == 'block')
+				document.getElementById('header-item1').style.cssText = 'display: none;';
+			var headeritem2 = $('.header-item2').css('display');
+			if (display == 'block')
+				document.getElementById('header-item2').style.cssText = 'display: none;';
+			var headeritem3 = $('.header-item3').css('display');
+			if (display == 'block')
+				document.getElementById('header-item3').style.cssText = 'display: none;';
 		}
 	</script>
 </div>
