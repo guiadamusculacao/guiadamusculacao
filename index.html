@@ -16,15 +16,7 @@ description:
 			document.getElementById('header-item1').style.cssText = 'display: block;float: left;';
 			document.getElementById('header-item2').style.cssText = 'display: block;float: left;';
 			document.getElementById('header-item3').style.cssText = 'display: block;float: left;';
-			var headeritem1 = $('.header-item1').css('display');
-			if (display == 'block')
-				document.getElementById('header-item1').style.cssText = 'display: none;';
-			var headeritem2 = $('.header-item2').css('display');
-			if (display == 'block')
-				document.getElementById('header-item2').style.cssText = 'display: none;';
-			var headeritem3 = $('.header-item3').css('display');
-			if (display == 'block')
-				document.getElementById('header-item3').style.cssText = 'display: none;';
+			if ($("header-item1").css('display')=="none"){document.getElementById('header-item1').style.cssText = 'display: none;';}
 		}
 	</script>
 </div>
