@@ -15,12 +15,11 @@ description:
 		function menufunction(){
 			document.getElementById('header-item2').style.cssText = 'display: block;float: left;';
 			document.getElementById('header-item3').style.cssText = 'display: block;float: left;';
-			if (document.getElementById('header-item1').style.cssText = 'display:block'){
-				document.getElementById('header-item1').style.cssText = 'display:none';
-			}
-			else {
-				document.getElementById('header-item1').style.cssText = 'display:block;float:left;';
-			}
+			if ($('header-item1').css('display')=='block') {
+				$('header-item1').css('display', 'none');
+			} else if ($('header-item1').css('display')==('none') {
+				   $('header-item1').css('display', 'block');
+    }
 		}
 	</script>
 </div>
