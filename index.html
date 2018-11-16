@@ -13,10 +13,10 @@ description:
 	<a href="{{ site.url }}"><div class="header-item" id="header-item3" >Pagina Inicial</div></a>
 	<script>
 		function menufunction(){
-			document.getElementById('header-item1').style.cssText = 'display: block;float: left;';
 			document.getElementById('header-item2').style.cssText = 'display: block;float: left;';
 			document.getElementById('header-item3').style.cssText = 'display: block;float: left;';
 			if ($("header-item1").css('display')=="none"){document.getElementById('header-item1').style.cssText = 'display: none;';}
+			else {document.getElementById('header-item1').style.cssText = 'display: block;float: left;';}
 		}
 	</script>
 </div>
