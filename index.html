@@ -28,22 +28,22 @@ description:
 </div>
 <div class="main2">
 	{% for post in site.posts %}
-	<div class="post-title"><center><h2>{{ post.title }}</h2></center></div>
 	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div>
 	<div class="post-coluna2">
+		<div class="post-title"><center><h2>{{ post.title }}</h2></center></div>
 		<div class="expert">{{ post.excerpt }}</div>
-		<a href="{{ post.url }}" style="text-decoration:none;"><div class="continue-lendo">CONTINUAR LENDO!</div></a>
 	</div>
+	<a href="{{ post.url }}" style="text-decoration:none;"><div class="continue-lendo">CONTINUAR LENDO!</div></a>
 	<div class="pos-post"></div>
 	{% endfor %}
 </div>
 <style>
 	.tumbrl{vertical-align:middle;display:inline-block;width:200px;height:130px;}
-	.expert{width:100%;height:92px;overflow:hidden;text-align:justify;text-indent:2em;}
-	.continue-lendo{width:100%;height:25px;background-color:#3e3e3e;border-radius:5px;border-bottom:solid 3px #2f2a2a;color:#fff;padding:5px;text-decoration:none;text-transform:uppercase;text-align:center;}
+	.expert{width:100%;height:100px;overflow:hidden;text-align:justify;text-indent:2em;}
+	.continue-lendo{width:100%;height:25px;background-color:#3e3e3e;border-radius:5px;border-bottom:solid 3px #2f2a2a;color:#fff;padding-top:5px;padding-bottom:5px;text-decoration:none;text-transform:uppercase;text-align:center;}
 	.continue-lendo:hover{background-color:#2c2c2c;border-bottom:solid 3px #181818;}
 	.post-coluna2{width:70%;vertical-align:middle;display:inline-block;margin-left:10px;width70%;height:130px;}
 	.pos-post{border:solid 1px #0003;margin-top:20px;margin-bottom:20px;border-radius:100%;}
-	.post-title{font-weight:bold;}
-	.post-title h2{color:#fff;margin:5px;}
+	.post-title{font-weight:bold;height:30px;}
+	.post-title h2{color:#fff;margin:0px;}
 </style>
