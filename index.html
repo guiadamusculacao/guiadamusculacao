@@ -28,12 +28,14 @@ description:
 </div>
 <div class="main2">
 	{% for post in site.posts %}
-	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div>
-	<div class="post-coluna2">
-		<div class="post-title"><center><h2>{{ post.title }}</h2></center></div>
-		<div class="expert">{{ post.excerpt }}</div>
-	</div>
-	<a href="{{ post.url }}" style="text-decoration:none;"><div class="continue-lendo">CONTINUAR LENDO!</div></a>
+	<a href="{{ post.url }}" style="text-decoration:none;">
+		<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div>
+		<div class="post-coluna2">
+			<div class="post-title"><center><h2>{{ post.title }}</h2></center></div>
+			<div class="expert">{{ post.excerpt }}</div>
+		</div>
+		<div class="continue-lendo">CONTINUAR LENDO!</div>
+	</a>
 	<div class="pos-post"></div>
 	{% endfor %}
 </div>
