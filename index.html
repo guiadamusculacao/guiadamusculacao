@@ -28,7 +28,12 @@ description:
 </div>
 <div class="main2">
 	{% for post in site.posts %}
-	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div><div class="post-coluna2"><div class="expert">{{ post.excerpt }}</div><a href="{{ post.url }}" style="text-decoration:none;"><div class="continue-lendo">CONTINUAR LENDO!</div></a></div>
+	<div class="title">{{ post.title }}</div>
+	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div>
+	<div class="post-coluna2">
+		<div class="expert"><h2>{{ post.excerpt }}</h2></div>
+		<a href="{{ post.url }}" style="text-decoration:none;"><div class="continue-lendo">CONTINUAR LENDO!</div></a>
+	</div>
 	<div class="pos-post"></div>
 	{% endfor %}
 </div>
@@ -39,4 +44,5 @@ description:
 	.continue-lendo:hover{background-color:#2c2c2c;border-bottom:solid 3px #181818;}
 	.post-coluna2{width:70%;vertical-align:middle;display:inline-block;margin-left:10px;width70%;height:130px;}
 	.pos-post{border:solid 1px #0003;margin-top:20px;margin-bottom:20px;border-radius:100%;}
+	.post-tile{font-weight:bold;}
 </style>
