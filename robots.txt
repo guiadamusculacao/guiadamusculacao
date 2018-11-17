@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /*
-Disallow: /imagens/
-Disallow: /pagina/*
 
 Sitemap: https://www.goodzsex.com/sitemap.xml
-Sitemap: https://www.goodzsex.com/sitemap-video.xml
