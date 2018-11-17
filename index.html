@@ -29,7 +29,7 @@ description:
 </div>
 <div class="main2">
 	{% for post in site.posts %}
-	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div><div class="post-coluna2"><div class="expert">{{ post.excerpt }}</div><div class="continue-lendo">CONTINUAR LENDO!</div></div>
+	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div><div class="post-coluna2"><div class="expert">{{ post.excerpt }}</div><a href="{{ post.url }}"><div class="continue-lendo">CONTINUAR LENDO!</div></a></div>
 	{% endfor %}
 </div>
 <style>
