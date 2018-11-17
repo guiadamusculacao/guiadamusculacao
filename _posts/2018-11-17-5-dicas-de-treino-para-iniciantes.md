@@ -19,6 +19,17 @@ featuredimage: https://www.oguiadamusculacao.com/thumb/5-dicas-de-treino-para-in
 <p>Em relação ao treino para iniciantes, pode-se utilizar de pré-treinos, vasodilatadores entre outros que proporcionaram bons resultados de pump e desempenho, entretanto é importante lembrar que deve ser utilizado com consciência pois o mal-uso ou abuso de tais suplementos podem implicar em problemas de saúde, para isso recomendamos uma boa e velha xicara de café antes do treino.</p>
 <h2>4 - Tenha uma rotina de treino</h2>
 <p>Planeje junto ao instrutor uma rotina de treino que trabalhe todos os grupos musculares. É de suma importância manter uma rotina de treinamento para que trabalhe todos os músculos sem deixar nenhum de fora, independentemente da quantidade de vezes que você irá treinar durante a semana, há diversas divisões de treino que você pode utilizar ou adaptar para a sua realidade, os mais comuns são: AB2x, ABC2x, ABCD e ABCDE, sendo que cada letra representa os grupos musculares que serão trabalhos em um dia, e o "2x" significa que a divisão será repetida duas vezes na semana.</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Anuncio no texto -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2816982644079927"
+     data-ad-slot="6125590388"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <h2>5 - Varie entre Aeróbico e Anaeróbico</h2>
 <p>Nas academias encontramos pessoas que fazem aeróbico, mas não o anaeróbico (musculação) e vice-versa, para quem quer ter ganho de massa muscular e ou perder gordura, é importante utilizar das duas vias para gerar ganhos consistentes.</p>
 <p>O treinamento aeróbico irá proporcionar ganhos cardiovasculares o que é de suma importância para a musculação, podendo garantir maiores ganhos.<p>
@@ -26,3 +37,14 @@ featuredimage: https://www.oguiadamusculacao.com/thumb/5-dicas-de-treino-para-in
 <p>Sendo assim, utilize de ambos, preferencialmente em horários diferentes pois o treinamento aeróbico antes ou logo após a musculação podem atrapalhar seus ganhos.</p>
 <h2>Bônus - Motive-se</h2>
 <p>Embora o possa parecer fácil, a quantidade de pessoas que desistem no início de seu treinamento é muito grande, então procure manter o foco, durante essa fase de adaptação você irá observar muito ganho de força devido ao seus neurônios estarem trabalhando de forma mais coordenada, porém, após essa etapa podem haver pequenas estagnações, para superar isso você deve variar o treino, solicitar ao instrutor que altere os exercícios, busque variar o número de series e repetições para manter uma constante adaptação do corpo a novos estímulos.</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Anuncio Footer -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2816982644079927"
+     data-ad-slot="7247100365"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
