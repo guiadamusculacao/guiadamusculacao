@@ -29,10 +29,11 @@ description:
 </div>
 <div class="main2">
 	{% for post in site.posts %}
-	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div><div class="expert">{{ post.excerpt }}</div>
+	<div class="tumbrl"><img src="{{ post.featuredimage }}" style="width:200px;height:130px;"/></div><div class="expert">{{ post.excerpt }}</div><div class="continue-lendo">CONTINUAR LENDO!</div>
 	{% endfor %}
 </div>
 <style>
 	.tumbrl{display:inline-block;width:200px;height:130px;}
-	.expert{display:inline-block;width:70%;height:130px;overflow:hidden;text-align:justify;margin-left:10px;text-indent:2em;}
+	.expert{display:inline-block;width:70%;height:100px;overflow:hidden;text-align:justify;margin-left:10px;text-indent:2em;}
+	.continue-lendo{heighy:24px;background-color:#129a00;border-radius:5px;border-bottom:solid 3px #0d6d00;color:#fff;padding:5px;text-decoration:none;text-transform:uppercase;}
 </style>
