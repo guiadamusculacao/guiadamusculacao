@@ -5,6 +5,7 @@ description: Some text about your blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://guiadamusculacao.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-124267055-1"
+excerpt_separator: <!--more-->
 
 include: ["_pages"]
 
