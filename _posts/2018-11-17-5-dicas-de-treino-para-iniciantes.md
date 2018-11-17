@@ -37,14 +37,3 @@ featuredimage: https://www.oguiadamusculacao.com/thumb/5-dicas-de-treino-para-in
 <p>Sendo assim, utilize de ambos, preferencialmente em horários diferentes pois o treinamento aeróbico antes ou logo após a musculação podem atrapalhar seus ganhos.</p>
 <h2>Bônus - Motive-se</h2>
 <p>Embora o possa parecer fácil, a quantidade de pessoas que desistem no início de seu treinamento é muito grande, então procure manter o foco, durante essa fase de adaptação você irá observar muito ganho de força devido ao seus neurônios estarem trabalhando de forma mais coordenada, porém, após essa etapa podem haver pequenas estagnações, para superar isso você deve variar o treino, solicitar ao instrutor que altere os exercícios, busque variar o número de series e repetições para manter uma constante adaptação do corpo a novos estímulos.</p>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Anuncio Footer -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2816982644079927"
-     data-ad-slot="7247100365"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
