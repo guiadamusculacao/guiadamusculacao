@@ -4,23 +4,13 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://www.goodzsex.com/</loc> 
-    <image:image>
-      <image:loc>https://www.goodzsex.com/assets/img/goodzsex.png</image:loc>
-    </image:image> 
+    <loc>https://www.oguiadamusculacao.com/</loc> 
   </url>
-{% for post in site.pages %}
-{% if post.layout == 'pornstar' %}  
-  <url>
-    <loc>{{ site.url }}{{ post.url }}</loc> 
-  </url>
-{% endif %}
-{% endfor %}
   {% for post in site.posts %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc> 
     <image:image>
-      <image:loc>{{ post.image }}</image:loc>
+      <image:loc>{{ post.featuredimage }}</image:loc>
     </image:image> 
   </url>
 {% endfor %}
