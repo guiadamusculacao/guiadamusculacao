@@ -1,0 +1,31 @@
+---
+layout: main
+description:
+---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<div class="header">
+	<div class="header-titulo"><img src="https://i.imgur.com/9LYrqfI.png" style="width:30px;border-radius:100%;" alt="Guia da Musculação Icone"></div>
+	<div class="header-titulo"><a href="{{ site.url }}"><b>Guia da Musculação</b></a></div>
+	<div class="menu" id="header-item" onclick="menufunction()">|||</div>
+	<a href="{{ site.url }}/previa/"><div class="header-item" id="header-item1" >Prévia</div></a>
+	<a href="{{ site.url }}/perguntas-frequentes/"><div class="header-item" id="header-item2" >Perguntas Frequentes</div></a>
+	<a href="{{ site.url }}"><div class="header-item" id="header-item3" >Pagina Inicial</div></a>
+	<script>
+		function menufunction(){
+			if ($('#header-item1').css('display')==('block')){$('#header-item1').css('display', 'none');}
+			else if ($('#header-item1').css('display')==('none')){$('#header-item1').css('display', 'block');}
+			if ($('#header-item2').css('display')==('block')){$('#header-item2').css('display', 'none');}
+			else if ($('#header-item2').css('display')==('none')){$('#header-item2').css('display', 'block');}
+			if ($('#header-item3').css('display')==('block')){$('#header-item3').css('display', 'none');}
+			else if ($('#header-item3').css('display')==('none')){$('#header-item3').css('display', 'block');}
+		}
+	</script>
+</div>
+<div class="main">
+<img src="https://i.imgur.com/9LYrqfI.png" style="width:200px;border-radius:100%;" alt="Guia da Musculação Icone"/>
+<p><b>Guia da Musculação: Um Esporte do Corpo</b></p>
+</div>
+<div class="main2">
+{{ content }}
+</div>
