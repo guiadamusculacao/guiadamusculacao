@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagina
 title: Cadastro
 description: Cadastre-se para receber novos videos por E-mail.
 permalink: /cadastro/
