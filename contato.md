@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagina
 title: Contato
 description: Envie-nos uma mensagem.
 permalink: /contato/
