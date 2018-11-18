@@ -19,19 +19,16 @@ permalink: /contato/
   <div id="form" class="contact-form">
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
-        <input type="hidden" name="_subject" value="New contact!" />
-        <input type="hidden" name="_next" value="{{ site.url }}/contact/message-sent/" />
-        <input type="hidden" name="_language" value="en" />
-
-        <input type="text" name="name" placeholder="Seu nome" v-validate="'required'"
+        <input type="hidden" name="_next" value="{{ site.url }}" />
+        <input type="text" name="Nome" placeholder="Seu nome" v-validate="'required'"
                :class="{ 'has-error': errors.has('name') }">
         <span v-if="errors.has('name')" v-cloak>${ errors.first('name') }</span>
 
-        <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
+        <input type="text" name="Email" placeholder="Seu e-mail" v-validate="'required|email'"
                :class="{ 'has-error': errors.has('email') }">
         <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
 
-        <textarea name="message" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
+        <textarea name="Mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
                   :class="{ 'has-error': errors.has('message') }"></textarea>
         <span v-if="errors.has('message')" v-cloak>${ errors.first('message') }</span>
 
