@@ -18,7 +18,7 @@ permalink: /contato/
 
   <div id="form" class="contact-form">
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
-      <fieldset>
+      <fieldset style="border:none;">
         <input type="hidden" name="_next" value="{{ site.url }}" />
         <input type="text" name="Nome" placeholder="Seu nome" v-validate="'required'"
                :class="{ 'has-error': errors.has('name') }">
