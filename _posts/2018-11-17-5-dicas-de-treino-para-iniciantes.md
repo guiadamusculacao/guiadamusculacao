@@ -1,6 +1,6 @@
 ---
 title: 5 dicas de treino para iniciantes 
-description: Como deve ser o treino para iniciantes? Muitas vezes, ao começar a fazer exercícios físicos regularmente recebe uma ficha de treino, reavaliaremos isso!
+description: Como deve ser o treino para novatos? Muitas vezes, ao começar a fazer exercícios físicos regularmente recebe uma ficha de treino, reavaliaremos isso!
 featuredimage: https://www.oguiadamusculacao.com/thumb/5-dicas-de-treino-para-iniciantes.png
 ---
 <p>Como deve ser o treino para iniciantes? Muitas vezes, o iniciante, ao começar a fazer exercícios físicos regularmente recebe uma ficha de treino do treinador da academia e se pergunta, será que isto realmente vai me trazer bons resultados?</p><!--more-->
