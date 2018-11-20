@@ -27,4 +27,4 @@ featuredimage: https://www.oguiadamusculacao.com/thumb/como-ganhar-massa-muscula
 </script></div>
 <h2>O descanso</h2>
 <p>Por fim, mas não menos importante, temos o descanso, tratando-se da parte do dia em que o corpo irá reconstruir as fibras rompidas através de nutrientes ingeridos na dieta, para manter um bom descanso e possibilitar o processo de hipertrofia dedique de 6 a 8 horas reservadas ao sono, sem luzes brancas.</p>
-<p>É importante lembrarmos que denominamos esses 3 itens como pilares por que todos trabalham em conjunto, sendo que sem algum desses itens, a hipertrofia estará comprometida.</p>
+<p>É importante lembrarmos que denominamos esses 3 itens como "pilares" por que todos trabalham em conjunto, sendo que sem algum desses itens, a hipertrofia estará comprometida.</p>
