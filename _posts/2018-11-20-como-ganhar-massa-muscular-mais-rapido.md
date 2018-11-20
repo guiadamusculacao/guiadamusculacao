@@ -29,3 +29,4 @@ data: 20/11/2018
 <h2>O descanso</h2>
 <p>Por fim, mas não menos importante, temos o descanso, tratando-se da parte do dia em que o corpo irá reconstruir as fibras rompidas através de nutrientes ingeridos na dieta, para manter um bom descanso e possibilitar o processo de hipertrofia dedique de 6 a 8 horas reservadas ao sono, sem luzes brancas.</p>
 <p>É importante lembrarmos que denominamos esses 3 itens como "pilares" por que todos trabalham em conjunto, sendo que sem algum desses itens, a hipertrofia estará comprometida.</p>
+<p>Sendo assim, é importante dar atenção especial para esses 3 itens para otimizar seus ganhos, lembre-se que para ganhar massa muscular naturalmente, é praticamente impossível sem ganhar gordura junto, então não tenha medo de ganhar peso. Quando chegar a um ponto em que achar que está engordando demais, dê uma pausa no processo de ganho de peso e passe a focar em perder gorsura sem perder toda a massa muscular adquirida na primeira fase.</p>
