@@ -34,5 +34,5 @@ data: 23/11/2018
 <p>É possível ainda, assim que puxar o ar, solta-lo e realizar mais uma série sem dar um período de descanso. Varie entre as posições para aumentar o resultado</p>
 <center><img class="post-image" src="https://i.imgur.com/rdAVeO6.png" alt="Fisiculturistas com stomach vacuum"/></center>
 <p>Recomendamos que realize entre 3 a 4 series para começar e aumentar aos poucos se necessário, intercalando entre dia sim e dia não.</p>
-<p>É necessário um certo período para reparar resultados, entretanto torna-se perceptível a longo prazo, separamos um vídeo para visualizar tais resultados</p>
+<p>É necessário um certo período para reparar resultados, entretanto torna-se perceptível a longo prazo, separamos um vídeo para visualizar tais resultados:</p>
 <center><iframe width="560" style="max-width:100%;" height="315" src="https://www.youtube.com/embed/0oBYVQvNjaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
