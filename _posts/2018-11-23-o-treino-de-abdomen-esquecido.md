@@ -22,7 +22,7 @@ data: 23/11/2018
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
 <p>O treinamento do Abdômen Transverso possibilita a capacidade de contrai-lo com mais força possibilitando afinar o abdômen devido a diminuição da dilatação</p>
-<center><img class="post-image" src="https://i.imgur.com/cMW6aeh.png" alt="Distribuição muscular do abdômen"/></center>
+<center><img class="post-image" src="https://i.imgur.com/JizmHYb.png" alt="Distribuição muscular do abdômen"/></center>
 <h2>Stomach Vacuum</h2>
 <p>Você pode estar se perguntando como realizar um treino de abdômen para essa região, então descreveremos para você:</p>
 <p>Para tal, você deve realizar um exercício denominado de "Stomach Vacuum", praticado por grandes nomes do fisiculturismo, como: Arnold Schwarzenegger,Louis Ferrigno e Frank Zane
