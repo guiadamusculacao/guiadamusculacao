@@ -4,7 +4,7 @@ description: Já ouviu falar do Stomach Vacuum? Trata-se de um exercício de tre
 featuredimage: https://www.oguiadamusculacao.com/thumb/o-treino-de-abdomen-esquecido.png
 data: 23/11/2018
 ---
-<p>Muitas pessoas em busca de um abdômen perfeito trabalham inúmeras series e exercícios. Entretendo, assim como qualquer outro musculo, para obter resultados o descanso e o trabalho completo do grupo muscular são essenciais. Sabendo-se disse, lhe pergunto: Você trabalha a região transversa do abdômen?</p><!--more-->
+<p>Muitas pessoas em busca de um abdômen perfeito trabalham inúmeras series e exercícios. Entretendo, assim como qualquer outro músculo, para obter resultados o descanso e o trabalho completo do grupo muscular são essenciais. Sabendo-se disso, lhe pergunto: Você trabalha a região transversa do abdômen?</p><!--more-->
 <h2>O Abdômen Transverso</h2>
 <p>Para que não conhece a distribuição do abdômen, o mesmo é composto por 3 camadas de músculos, sendo eles respectivamente: Reto Abdominal, Obliquo externo e interno e Transverso do Abdominal.</p>
 <p>Quando questionado, muitos praticantes de exercícios físicos afirmam não trabalhar (e muitas vezes nem conhecer como trabalhar) o abdômen transverso.</p>
