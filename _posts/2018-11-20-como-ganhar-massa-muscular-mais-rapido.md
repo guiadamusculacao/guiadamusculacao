@@ -14,6 +14,7 @@ data: 20/11/2018
 <center><img class="post-image" src="https://i.imgur.com/DnvgzLB.jpg" alt="Dieta"/></center>
 <h2>O treinamento</h2>
 <p>Os exercícios do seu treino devem seguir a sua individualidade, use e abuse de variações, super-series, biset's, etc. O importante é manter o seu corpo em adaptação, portanto, mantenha o seu treino variado o suficiente para que seu corpo não consiga se adaptar com tanta facilidade. Mas lembre-se de manter aqueles exercícios que proporcionam maiores ganhos para você.</p>
+<p>Caso tenha começado recentamente a praticar musculação, veja o o post "<a href="https://www.oguiadamusculacao.com/5-dicas-de-treino-para-iniciantes/">5 dicas de treino para iniciantes</a>".
 <div>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Anuncio no texto -->
