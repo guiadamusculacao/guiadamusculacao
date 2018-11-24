@@ -4,7 +4,7 @@ description: Como deve ser o treino para novatos? Muitas vezes, ao começar a fa
 featuredimage: https://www.oguiadamusculacao.com/thumb/5-dicas-de-treino-para-iniciantes.png
 data: 17/11/2018
 ---
-<p>Como deve ser o <b>treino para iniciantes</b>? Muitas vezes, o iniciante, ao começar a fazer exercícios físicos regularmente recebe uma ficha de treino do treinador da academia e se pergunta, será que isto realmente vai me trazer bons resultados?</p><!--more-->
+<p>Como deve ser o treino para iniciantes? Muitas vezes, o iniciante, ao começar a fazer exercícios físicos regularmente recebe uma ficha de treino do treinador da academia e se pergunta, será que isto realmente vai me trazer bons resultados?</p><!--more-->
 <p>Para respondermos essa pergunta, devemos começar a introdução sobre as diferenças de treinamento para quem está começando e quem já pratica o esporte a um certo período de tempo, abordaremos isso no formato das seguintes dicas:</p>
 <h2>1 - As primeiras 4 a 6 semanas são para adaptação</h2>
 <p>Muitos podem olhar o título dessa primeira dica e pensaram: "Mas eu não preciso de todo esse tempo para me adaptar...", embora você possa idealizar dessa maneira, quando pensamos em <b>treino para iniciantes</b> deve-se levar em consideração que o seu corpo pensa de maneira diferente, e o mesmo leva esse período para adaptar os neurônios que estimulam seus músculos a trabalharam da forma mais eficiente possível para realizar movimentos com coordenação e mínimo gasto energético desnecessário.</p>
