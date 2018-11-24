@@ -34,7 +34,7 @@ data: 17/11/2018
 </script></div>
 <h2>5 - Varie entre Aeróbico e Anaeróbico</h2>
 <p>Nas academias encontramos pessoas que fazem aeróbico, mas não o anaeróbico (musculação) e vice-versa, para quem quer ter ganho de massa muscular e ou perder gordura, é importante utilizar das duas vias para gerar ganhos consistentes.</p>
-<p>O treinamento aeróbico irá proporcionar ganhos cardiovasculares o que é de suma importância para a musculação, podendo garantir maiores ganhos.<p>
+<p>O <b>treinamento aeróbico</b> irá proporcionar ganhos cardiovasculares o que é de suma importância para a musculação, podendo garantir maiores ganhos.<p>
 <p>Além disso apesar do aeróbico ser uma atividade prática de ser realizada sem a necessidade de pagar uma mensalidade na academia, a mesma precisa ser consistente e ser realizada durante um bom período de tempo, pois a mesma só passa a queimar gordura após um período de tempo, antes disso é somente carboidrato sendo utilizado como fonte energética.</p>
 <p>Sendo assim, utilize de ambos, preferencialmente em horários diferentes pois o treinamento aeróbico antes ou logo após a musculação podem atrapalhar seus ganhos.</p>
 <h2>Bônus - Motive-se</h2>
