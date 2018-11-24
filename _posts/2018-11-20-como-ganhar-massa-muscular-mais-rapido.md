@@ -9,7 +9,7 @@ data: 20/11/2018
 <h2>Os três pilares da musculação</h2>
 <p>De acordo com o que vimos logo acima, podemos perceber que para <b>ganhar massa muscular</b> são necessários 3 pilares que possibilitaram o processo de hipertrofia, sendo esses: a dieta, o treinamento e o descanso.
 <h2>A dieta</h2>
-<p>O primeiro passo para preparar uma dieta é descobrir a quantidade de calorias gasta diariamente para manter o seu peso atual, esse número é conhecido como Taxa Metabólica Basal (TMB), logo após descobrir este número é necessário acrescentar ou diminuir uma quantidade de calorias para alcançar seu objetivo, em média o acréscimo ou decréscimo de 500 a 1000 calorias serão capaz de proporcionar o ganho de peso ou perda de peso, respectivamente.</p>
+<p>O primeiro passo para preparar uma dieta é descobrir a quantidade de calorias gasta diariamente para manter o seu peso atual, esse número é conhecido como <b>Taxa Metabólica Basal</b> (TMB), logo após descobrir este número é necessário acrescentar ou diminuir uma quantidade de calorias para alcançar seu objetivo, em média o acréscimo ou decréscimo de 500 a 1000 calorias serão capaz de proporcionar o ganho de peso ou perda de peso, respectivamente.</p>
 <p>Em breve você poderá conferir uma matéria especifica para conhecer um pouco mais sobre a dieta e como montar uma em casa.</p>
 <center><img class="post-image" src="https://i.imgur.com/DnvgzLB.jpg" alt="Dieta"/></center>
 <h2>O treinamento</h2>
