@@ -21,7 +21,7 @@ data: 23/11/2018
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
-<p>O treinamento do Abdômen Transverso possibilita a capacidade de contrai-lo com mais força possibilitando afinar o abdômen devido a diminuição da dilatação</p>
+<p>O treinamento do Abdômen Transverso possibilita a capacidade de contrai-lo com mais força possibilitando <b>afinar a cintura</b> devido a diminuição da dilatação</p>
 <center><img class="post-image" src="https://i.imgur.com/JizmHYb.png" alt="Distribuição muscular do abdômen"/></center>
 <h2>Stomach Vacuum</h2>
 <p>Você pode estar se perguntando como realizar um <b>treino de abdômen</b> para essa região, então descreveremos para você:</p>
