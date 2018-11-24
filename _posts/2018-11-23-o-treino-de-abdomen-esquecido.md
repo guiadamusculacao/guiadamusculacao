@@ -25,7 +25,7 @@ data: 23/11/2018
 <center><img class="post-image" src="https://i.imgur.com/JizmHYb.png" alt="Distribuição muscular do abdômen"/></center>
 <h2>Stomach Vacuum</h2>
 <p>Você pode estar se perguntando como realizar um <b>treino de abdômen</b> para essa região, então descreveremos para você:</p>
-<p>Para tal, você deve realizar um exercício denominado de "Stomach Vacuum", praticado por grandes nomes do fisiculturismo, como: Arnold Schwarzenegger,Louis Ferrigno e Frank Zane
+<p>Para tal, você deve realizar um exercício denominado de <b>Stomach Vacuum</b>, praticado por grandes nomes do fisiculturismo, como: Arnold Schwarzenegger,Louis Ferrigno e Frank Zane
 <center><img class="post-image" src="https://i.imgur.com/ZpURsCt.png" alt="Fisiculturistas com stomach vacuum"/></center>
 <p>Para realiza-lo é simples, basta se posicionar sentado com as mãos nos joelhos, de pé com o cotovelo acima da cabeça ou em quatro apoios e realizar a seguinte técnica:</p>
 <p>Após escolher uma posição, puxe o máximo de ar que conseguir e logo em seguida solte todo lentamente até não sobrar nenhum ar, curve sua coluna contraindo o abdômen para soltar todo o ar e segure sem puxar nenhum ar</p>
