@@ -6,12 +6,12 @@ description: Encontre dicas de hipertrofia e musculação que proporcionaram mai
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <div class="post-content">
 	{% for post in site.posts %}
-	<a href="{{ post.url }}" style="text-decoration:none;"><div class="tumbrl"><img src="{{ post.featuredimage }}" class="post-thumb" alt="{{ post.title }}"/></div></a>
+	<a rel="nofollow" href="{{ post.url }}" style="text-decoration:none;"><div class="tumbrl"><img src="{{ post.featuredimage }}" class="post-thumb" alt="{{ post.title }}"/></div></a>
 		<div class="post-coluna2">
 			<div class="post-title"><h2><a href="{{ post.url }}" style="text-decoration:none;color:#333;">{{ post.title }}</a></h2></div>
 			<div class="expert">{{ post.excerpt }}</div>
 		</div>
-		<a href="{{ post.url }}" style="text-decoration:none;"><div class="continue-lendo">CONTINUAR LENDO!</div></a>
+		<a rel="nofollow" href="{{ post.url }}" style="text-decoration:none;"><div class="continue-lendo">CONTINUAR LENDO!</div></a>
 	<div class="pos-post"></div>
 	{% endfor %}
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
