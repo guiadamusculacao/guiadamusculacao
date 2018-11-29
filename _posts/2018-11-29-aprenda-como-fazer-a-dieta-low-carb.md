@@ -1,6 +1,6 @@
 ---
 title: Aprenda como fazer a dieta low carb
-description: Como deve ser o treino para novatos? Muitas vezes, ao começar a fazer exercícios físicos regularmente recebe uma ficha de treino, reavaliaremos isso!
+description: Se fosse possível definir uma prioridade dos fatores necessários para a construção muscular, a dieta sem sombra de dúvidas é a que teria maior destaque; Sabendo disso, aprenda como fazer uma dieta low carb.
 featuredimage: https://www.oguiadamusculacao.com/thumb/aprenda-como-fazer-a-dieta-low-carb.png
 data: 29/11/2018
 ---
