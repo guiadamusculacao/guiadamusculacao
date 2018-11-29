@@ -1,6 +1,6 @@
 ---
 title: Aprenda como fazer a dieta low carb
-description: Se fosse possível definir uma prioridade dos fatores necessários para a construção muscular, a dieta sem sombra de dúvidas é a que teria maior destaque; Sabendo disso, aprenda como fazer uma dieta low carb.
+description: Se fosse possível definir uma prioridade dos fatores necessários para a construção muscular, a dieta sem sombra de dúvidas é a que teria maior destaque; Sabendo disso, aprenda <b>como fazer uma dieta low carb</b>.
 featuredimage: https://www.oguiadamusculacao.com/thumb/aprenda-como-fazer-a-dieta-low-carb.png
 data: 29/11/2018
 ---
