@@ -2,7 +2,7 @@
 title: Como ganhar massa muscular mais rápido
 description: Você sabe como funcionar o processo para ganhar massa muscular? Se deseja aumentar seus resultados confira essa matéria que preparamos para você!
 featuredimage: https://www.oguiadamusculacao.com/thumb/como-ganhar-massa-muscular-mais-rapido.png
-data: 24/11/2018
+data: 29/11/2018
 ---
 <p>Você sabe como funciona o processo para ganhar massa muscular? E como torna-lo mais rápido e eficiente? Se deseja aumentar seus resultados confira essa matéria que separamos especialmente para você!</p><!--more-->
 <p>Vamos começar pelo processo de geração do musculo: basicamente, vamos a academia e realizamos uma serie de exercícios e repetições durante uma determinada quantidade de tempo com a finalidade de romper as fibras musculares, no restante do dia o corpo precisa ingerir nutrientes suficientes para possibilitar que o corpo se adapte para suportar o próximo stress da musculação, sendo que esse processo de geração de um musculo mais forte e resistente ocorre durante o sono profundo.</p>
@@ -10,7 +10,7 @@ data: 24/11/2018
 <p>De acordo com o que vimos logo acima, podemos perceber que para <b>ganhar massa muscular</b> são necessários 3 pilares que possibilitaram o processo de hipertrofia, sendo esses: a dieta, o treinamento e o descanso.
 <h2>A dieta</h2>
 <p>O primeiro passo para preparar uma dieta é descobrir a quantidade de calorias gasta diariamente para manter o seu peso atual, esse número é conhecido como <b>Taxa Metabólica Basal</b> (TMB), logo após descobrir este número é necessário acrescentar ou diminuir uma quantidade de calorias para alcançar seu objetivo, em média o acréscimo ou decréscimo de 500 a 1000 calorias serão capaz de proporcionar o ganho de peso ou perda de peso, respectivamente.</p>
-<p>Em breve você poderá conferir uma matéria especifica para conhecer um pouco mais sobre a dieta e como montar uma em casa.</p>
+<p>Você pode conferir uma matéria especifica para conhecer um pouco mais sobre a dieta e como montar uma em casa através da postagem: "<a href="https://www.oguiadamusculacao.com/aprenda-como-fazer-a-dieta-low-carb/">Aprenda como fazer a dieta low carb</a>"</p>
 <center><img class="post-image" src="https://i.imgur.com/DnvgzLB.jpg" alt="Dieta"/></center>
 <h2>O treinamento</h2>
 <p>Os exercícios do seu treino devem seguir a sua individualidade, use e abuse de variações, super-series, biset's, etc. O importante é manter o seu corpo em adaptação, portanto, mantenha o seu treino variado o suficiente para que seu corpo não consiga se adaptar com tanta facilidade. Mas lembre-se de manter aqueles exercícios que proporcionam maiores ganhos para você.</p>
