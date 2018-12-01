@@ -2,7 +2,7 @@
 title: Como ganhar massa muscular mais rápido
 description: Você sabe como funcionar o processo para ganhar massa muscular? Se deseja aumentar seus resultados confira essa matéria que preparamos para você!
 featuredimage: https://www.oguiadamusculacao.com/thumb/como-ganhar-massa-muscular-mais-rapido.png
-data: 29/11/2018
+data: 01/12/2018
 ---
 <p>Você sabe como funciona o processo para ganhar massa muscular? E como torna-lo mais rápido e eficiente? Se deseja aumentar seus resultados confira essa matéria que separamos especialmente para você!</p><!--more-->
 <p>Vamos começar pelo processo de geração do musculo: basicamente, vamos a academia e realizamos uma serie de exercícios e repetições durante uma determinada quantidade de tempo com a finalidade de romper as fibras musculares, no restante do dia o corpo precisa ingerir nutrientes suficientes para possibilitar que o corpo se adapte para suportar o próximo stress da musculação, sendo que esse processo de geração de um musculo mais forte e resistente ocorre durante o sono profundo.</p>
