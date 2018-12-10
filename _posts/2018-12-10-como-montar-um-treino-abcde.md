@@ -2,7 +2,7 @@
 title: Como montar um treino abcde
 description: Ouviu falar no treino ABCDE e não conseguiu entender nada? Ou talvez, você já conheça o treino e gostaria de aproveitar o máximo deste tipo de treino.
 featuredimage: https://www.oguiadamusculacao.com/thumb/como-montar-um-treino-abcde.png
-data: 05/12/2018
+data: 10/12/2018
 tags: dieta
 ---
 <p>Ouviu falar no <b>treino ABCDE</b> e não conseguiu entender nada? Ou talvez, você já conheça o treino mas gostaria de algumas dicas para aproveitar o máximo deste tipo de treino.</p><!--more-->
@@ -32,6 +32,7 @@ tags: dieta
 <br/>
 <p>Quarta-Feira</p>
 <p>FOLGA - SEM TREINO</p>
+<br/>
 <p>Quinta-Feira</p>
 <p>C - Quadríceps, Posterior, Panturrilha e Abdômen</p>
 <p>- Exercício 1: Agachamento Livre com Barra</p>
