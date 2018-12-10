@@ -19,7 +19,7 @@
       {% endif %}
     {% endfor %}
     {% if sameTagCount >= minCommonTags %}
-        <div class="box-body">
+        <div class="box-body" width="30%">
             <a href="{{ post.url | prepend: site.url }}"><img src="{{ post.image }}" alt="{{ post.descricao }}"></a>
             <div class="box-info"><a href="{{ post.url | prepend: site.url }}"><h2 class="titulo" itemprop="name">{{ post.title }}</h2></a></div>
         </div>
