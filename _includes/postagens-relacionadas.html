@@ -1,7 +1,7 @@
 <style>
   h3 {color:#333;}
   .relatedimg {width:100%}
-  .box-body {width:24%;display:inline-block;padding:0.5%;}
+  .box-body {width:23%;display:inline-block;padding:0.5%;vertical-align:top;}
   .relatedtitle {color:#333;text-decoration:none;}
 </style>
 <center><h3>Postagens Relacionadas</h3></center>
@@ -27,7 +27,7 @@
     {% if sameTagCount >= minCommonTags %}
         <div class="box-body">
             <a href="{{ post.url | prepend: site.url }}"><img class="relatedimg" src="{{ post.featuredimage }}" alt="{{ post.descricao }}"></a>
-            <div class="box-info"><a class="relatedtitle" href="{{ post.url | prepend: site.url }}"><h2>{{ post.title }}</h2></a></div>
+            <div class="box-info"><a class="relatedtitle" href="{{ post.url | prepend: site.url }}"><p style="text-aling:center;">{{ post.title }}<p></a></div>
         </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
