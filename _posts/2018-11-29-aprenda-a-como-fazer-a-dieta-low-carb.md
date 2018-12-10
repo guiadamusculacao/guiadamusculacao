@@ -3,6 +3,7 @@ title: Aprenda a como fazer a dieta low carb
 description: Se fosse possível definir uma prioridade dos fatores necessários para a construção muscular, a dieta sem sombra de dúvidas é a que teria maior destaque; Sabendo disso, aprenda como fazer uma dieta low carb.
 featuredimage: https://www.oguiadamusculacao.com/thumb/aprenda-como-fazer-a-dieta-low-carb.png
 data: 29/11/2018
+tags: dieta
 ---
 <p>Se fosse possível definir uma prioridade dos fatores necessários para a construção muscular, a dieta sem sombra de dúvidas é a que teria maior destaque; isso pode ser visto em diversos aspectos, como no tempo gasto para cada um, por exemplo. Diante disso, aprender a <b>como fazer uma dieta low carb</b> torna-se indispensável.</p><!--more-->
 <p>Um treino com um objetivo de ganho de massa muscular leva em média cerca de 40 minutos a 1 hora e meia, claro que haverá pessoas que irão falar “Ah, mas meu treino dura 3 horas...”, entretanto como dito acima, o tempo descrito é uma média da grande parte da população que faz algum tipo de atividade física; O Descanso dura (ou deveria durar) em média de 6 a 8 horas diárias; Já a dieta, ela é mantida durante as 24 horas do dia, mas mesmo se descontarmos as horas gastas nos outros fatores, ainda sim seriam cerca de 15 horas, sendo um pouco mais que o dobro do descanso. Além disso, as tentações alimentícias do dia-a-dia só dificultam ainda mais permanecer com a dieta sem cometer erros.</p>
