@@ -82,6 +82,10 @@ data: 05/12/2018
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
+<h2>Hormonizados e Naturais</h2>
+<p>Quem faz uso de hormônios deve ficar atento a periodização do seu treino sabendo adaptar-se dependendo da fase em que se encontra o seu ciclo, como quando está em uma fase pós-ciclo aonde o atleta não consegue treinar com tanta intensidade então prefere escolher uma divisão de treino mais adequada, como um ABC1x ou ABCD1x.</p>
+<p>Já pessoas naturais tendem a manter um nível hormonal equilibrado possibilitando manter um nível de intensidade sem oscilações drásticas, o que facilita a escolha de uma divisão de treino por um longo período.</p>
+<p>Trata-se de um dos fatores primordiais da hipertrofia para naturais, o descanso, sabendo disso a divisão de treinamento discutida nesse post demonstra uma ótima escolha para aqueles que não fazem o uso de exógenos.</p>
 <h2>Conclusão</h2>
 <p>Apesar desta divisão de treino ser mais recomendadas para praticantes mais experientes, ela pode ser utilizada por iniciantes desde que tenha atenção retomada em treinar o suficiente para desgastar o musculo afim de treina-lo somente na outra semana.</p>
 <p>A partir do nosso exemplo você pode usar e ou modifica-lo de acordo com suas individualidades, mas lembre-se de garantir o descanso de pelo menos 48 horas para que o músculo possa passar pelo processo de hipertrofia.</p>
