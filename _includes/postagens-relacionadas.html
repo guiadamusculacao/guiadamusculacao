@@ -1,3 +1,9 @@
+<style>
+  h4 {color:#333;}
+  .relatedimg {widht:100%}
+  .box-body {widht:24%;display:inline-block;padding:0.5%;}
+  .featuredtitle {color:#333;}
+</style>
 <h4>Postagens Relacionadas</h4> 
 <div class="home" style="text-align:center;">
 <div id="grid" class="row flex-grid">
@@ -19,9 +25,9 @@
       {% endif %}
     {% endfor %}
     {% if sameTagCount >= minCommonTags %}
-        <div class="box-body" style="width:24%;display:inline-block;">
-            <a href="{{ post.url | prepend: site.url }}"><img src="{{ post.featuredimage }}" alt="{{ post.descricao }}"></a>
-            <div class="box-info"><a href="{{ post.url | prepend: site.url }}"><h2 class="titulo" itemprop="name">{{ post.title }}</h2></a></div>
+        <div class="box-body">
+            <a href="{{ post.url | prepend: site.url }}"><img class="relatedimg" src="{{ post.featuredimage }}" alt="{{ post.descricao }}"></a>
+            <div class="box-info"><a class="relatedtitle" href="{{ post.url | prepend: site.url }}"><h2>{{ post.title }}</h2></a></div>
         </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
