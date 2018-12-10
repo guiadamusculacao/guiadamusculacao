@@ -27,7 +27,7 @@
     {% if sameTagCount >= minCommonTags %}
         <div class="box-body">
             <a href="{{ post.url | prepend: site.url }}"><img class="relatedimg" src="{{ post.featuredimage }}" alt="{{ post.descricao }}"></a>
-            <div class="box-info"><a class="relatedtitle" href="{{ post.url | prepend: site.url }}"><h3 style="text-aling:center;">{{ post.title }}<h3></a></div>
+            <div class="box-info"><a class="relatedtitle" href="{{ post.url | prepend: site.url }}"><h3 style="text-align:center;margin:0px;">{{ post.title }}<h3></a></div>
         </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
