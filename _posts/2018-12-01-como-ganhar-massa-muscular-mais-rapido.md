@@ -17,17 +17,15 @@ tags: treino dieta
 <p>Os exercícios do seu treino devem seguir a sua individualidade, use e abuse de variações, super-series, biset's, etc. O importante é manter o seu corpo em adaptação, portanto, mantenha o seu treino variado o suficiente para que seu corpo não consiga se adaptar com tanta facilidade. Mas lembre-se de manter aqueles exercícios que proporcionam maiores ganhos para você.</p>
 <p>Caso tenha começado recentemente a praticar musculação, veja o post "<a href="https://www.oguiadamusculacao.com/5-dicas-de-treino-para-iniciantes/">5 dicas de treino para iniciantes</a>".
 <div>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Anuncio no texto -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2816982644079927"
-     data-ad-slot="6125590388"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div>
+<amp-ad width="100vw" height=320
+  type="adsense"
+  data-ad-client="ca-pub-2816982644079927"
+  data-ad-slot="6125590388"
+  data-auto-format="rspv"
+  data-full-width>
+    <div overflow></div>
+</amp-ad></div>
 <h2>O descanso</h2>
 <p>Por fim, mas não menos importante, temos o descanso, tratando-se da parte do dia em que o corpo irá reconstruir as fibras rompidas através de nutrientes ingeridos na dieta, para manter um bom descanso e possibilitar o processo de hipertrofia dedique de 6 a 8 horas reservadas ao sono, sem luzes brancas.</p>
 <p>É importante lembrarmos que denominamos esses 3 itens como "pilares" por que todos trabalham em conjunto, sendo que sem algum desses itens, a hipertrofia estará comprometida.</p>
