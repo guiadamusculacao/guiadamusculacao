@@ -11,17 +11,15 @@ tags: treino
 <p>Quando questionado, muitos praticantes de exercícios físicos afirmam não trabalhar (e muitas vezes nem conhecer como trabalhar) o abdômen transverso.</p>
 <p>Tal musculo é responsável principalmente por dilatar (fase excêntrica) e comprimir (fase concêntrica) o abdômen.</p>
 <div>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Anuncio no texto -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2816982644079927"
-     data-ad-slot="6125590388"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div>
+<amp-ad width="100vw" height=320
+  type="adsense"
+  data-ad-client="ca-pub-2816982644079927"
+  data-ad-slot="6125590388"
+  data-auto-format="rspv"
+  data-full-width>
+    <div overflow></div>
+</amp-ad></div>
 <p>O treinamento do Abdômen Transverso possibilita a capacidade de contrai-lo com mais força possibilitando <b>afinar a cintura</b> devido a diminuição da dilatação</p>
 <center><img class="post-image" src="https://i.imgur.com/Dzyt5Tx.png" alt="Distribuição muscular do abdômen"/></center>
 <h2>Stomach Vacuum</h2>
