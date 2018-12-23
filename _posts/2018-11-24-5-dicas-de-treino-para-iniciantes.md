@@ -22,17 +22,15 @@ tags: treino suplementação
 <h2>4 - Tenha uma rotina de treino</h2>
 <p>Planeje junto ao instrutor uma rotina de treino que trabalhe todos os grupos musculares. É de suma importância manter uma rotina de treinamento para que trabalhe todos os músculos sem deixar nenhum de fora, independentemente da quantidade de vezes que você irá treinar durante a semana, há diversas divisões de treino que você pode utilizar ou adaptar para a sua realidade, os mais comuns são: AB2x, ABC2x, ABCD e ABCDE, sendo que cada letra representa os grupos musculares que serão trabalhos em um dia, e o "2x" significa que a divisão será repetida duas vezes na semana.</p>
 <div>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Anuncio no texto -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2816982644079927"
-     data-ad-slot="6125590388"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div>
+<amp-ad width="100vw" height=320
+  type="adsense"
+  data-ad-client="ca-pub-2816982644079927"
+  data-ad-slot="6125590388"
+  data-auto-format="rspv"
+  data-full-width>
+    <div overflow></div>
+</amp-ad></div>
 <h2>5 - Varie entre Aeróbico e Anaeróbico</h2>
 <p>Nas academias encontramos pessoas que fazem aeróbico, mas não o anaeróbico (musculação) e vice-versa, para quem quer ter ganho de massa muscular e ou perder gordura, é importante utilizar das duas vias para gerar ganhos consistentes.</p>
 <p>O <b>treinamento aeróbico</b> irá proporcionar ganhos cardiovasculares o que é de suma importância para a musculação, podendo garantir maiores ganhos.<p>
