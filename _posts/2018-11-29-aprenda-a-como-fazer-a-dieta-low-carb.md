@@ -29,17 +29,15 @@ tags: dieta
 <p>Reutilizando o Exemplo 1, e levando em consideração que o mesmo seja definido Bastante Ativo, nós teremos o seguinte cálculo: “TMB = 2170,1 x 1,725 TMB = 3743,4225” Para deixar mais especifico e que não fará diferença podemos arredondar o resultado final para 3743, esse exemplo possui uma taxa metabólica extremamente alta, isso é dado principalmente pelo peso, porém a idade também pode ser determinante.</p>
 <p>A partir do resultado acima é necessário adaptarmos as calorias ingeridas de acordo com o seu objetivo.</p>
 <div>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Anuncio no texto -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2816982644079927"
-     data-ad-slot="6125590388"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script></div>
+<amp-ad width="100vw" height=320
+  type="adsense"
+  data-ad-client="ca-pub-2816982644079927"
+  data-ad-slot="6125590388"
+  data-auto-format="rspv"
+  data-full-width>
+    <div overflow></div>
+</amp-ad></div>
 <h2>Como fazer a dieta low carb (Cutting)</h2>
 <p>Algo que você irá se deparar muito nessa modalidade serão os termos em inglês, “Cutting”, deriva de “Cortar”, isto é, trata-se da eliminação da gordura.</p>
 <p>Esse é um período aonde devemos diminuímos a quantidade de calorias e carboidratos, enquanto aumentamos a quantidade de proteínas e gorduras.</p>
