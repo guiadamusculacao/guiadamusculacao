@@ -6,7 +6,7 @@ description: Encontre dicas de hipertrofia e musculação que proporcionaram mai
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <div class="post-content">
 	{% for post in site.posts %}
-	<a rel="nofollow" href="{{ post.url }}" style="text-decoration:none;"><div class="tumbrl"><amp-img src="{{ post.featuredimage }}" class="post-thumb" alt="{{ post.title }}"></amp-img></div></a>
+	<a rel="nofollow" href="{{ post.url }}" style="text-decoration:none;"><div class="tumbrl"><amp-img width="350px" src="{{ post.featuredimage }}" class="post-thumb" alt="{{ post.title }}"></amp-img></div></a>
 		<div class="post-coluna2">
 			<div class="post-title"><h2><a href="{{ post.url }}" style="text-decoration:none;color:#333;">{{ post.title }}</a></h2></div>
 			<div class="expert">{{ post.excerpt }}</div>
