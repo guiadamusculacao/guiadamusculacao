@@ -13,7 +13,8 @@
     <link href='https://i.imgur.com/XmcHX02.png' type="image/png" rel='icon' sizes='96x96'/>
 <title>Guia da Musculação</title>
 <meta name="description" content="{{ page.description }}">
-<style amp-boilerplate>
+ <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<style amp-custom>
      body{
          width: 100%;
          margin: 0px;
@@ -228,7 +229,7 @@
      .post-content h1{
          text-align: justify;
      }
-     .contact-form input[type="text"],      .contact-form input[type="email"]{
+     .contact-form input[type="text"],.contact-form input[type="email"]{
          box-sizing: border-box;
          outline: none;
          display: block;
@@ -260,7 +261,7 @@
          color: #fff;
          padding-bottom: .625rem;
      }
-     .contact-form input[type="text"]     .has-error,      .contact-form input[type="email"]     .has-error,      .contact-form textarea     .has-error{
+     .contact-form input[type="text"].has-error,.contact-form input[type="email"].has-error,.contact-form textarea,.has-error{
          border-color: #f04242;
      }
      .contact-form button[type="submit"] {
