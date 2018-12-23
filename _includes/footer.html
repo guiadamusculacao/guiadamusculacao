@@ -21,12 +21,19 @@
 		<p>David Menezes, Cursando Educação Física, Praticante de musculação a 5 anos.</p>
 		</div>
 </div>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113188635-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-113188635-4');
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-113188635-4"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
 </script>
+</amp-analytics>
+
