@@ -4,7 +4,7 @@ description:
 ---
 <div class="post-content">
 	<center><h1>{{ page.title }}</h1><amp-img class="post-image" src="{{ page.featuredimage }}" width="350" height="239" layout="intrinsic"></amp-img></center>
-	 <meta property="og:image" content="{{ page.featuredimage }}" /><noscript><img src="{{ page.featuredimage }}"/></noscript>
+	<noscript><img src="{{ page.featuredimage }}"/></noscript>
 {{ content }}
 	<p style="text-align:right;">Ultima atualização: {{ page.data }}.</p>
 	 {% include compartilhamento.html %}
