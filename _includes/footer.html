@@ -1,16 +1,11 @@
 <div class="emailmarketing">
-			<center>
-				<form method="POST" action="https://formspree.io/{{ site.email }}">
-				<h3 style="color:#fff;">RECEBA NOSSO E-BOOK GRATUITAMENTO NO SEU E-MAIL:</h3>
-				<input class="emailmarketing-email" type="text" name="Email" placeholder="Seu e-mail">
-				<input class="emailmarketing-enviar" type="submit" value="Receber">
-    </form>
-				<form action="https://formspree.io/davidmenezes2398@gmail.com" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
-</form> 
-			</center>
+	<center>
+		<form action-xhr="https://formspree.io/{{ site.email }}" method="POST">
+		<h3 style="color:#fff;">RECEBA NOSSO E-BOOK GRATUITAMENTO NO SEU E-MAIL:</h3>
+		<input class="emailmarketing-email" type="text" name="Email" placeholder="Seu e-mail">
+		<input class="emailmarketing-enviar" type="submit" value="Receber">
+		</form>
+	</center>
 </div>
 <div class="footer">
 	<div class="footer-item"><h4>Links Úteis</h4><br/>
