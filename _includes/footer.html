@@ -2,9 +2,9 @@
 	<form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
 		<fieldset style="border:none;">
         <input type="hidden" name="_next" value="{{ site.url }}" />
-			<h3>Receba nosso e-book gratuitamente no seu e-mail:</h3><input type="text" name="Email" placeholder="Seu e-mail" v-validate="'required|email'">
+			<h3 style="display:inline-block;">Receba nosso e-book gratuitamente no seu e-mail:</h3><input style="display:inline-block;" type="text" name="Email" placeholder="Seu e-mail" v-validate="'required|email'">
         <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
-        <button type="submit">Enviar</button>
+        <button style="display:inline-block;" type="submit">Enviar</button>
       </fieldset>
     </form>
 </div>
