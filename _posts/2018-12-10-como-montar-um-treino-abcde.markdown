@@ -78,7 +78,7 @@ tags: dieta
    height=250
    type="adsense"
    data-ad-client="ca-pub-2816982644079927"
-   data-ad-slot="7247100365">
+   data-ad-slot="5967151557">
 </amp-ad></div></center>
 <h2>Hormonizados e Naturais</h2>
 <p>É importante lembrar que quem faz uso de hormônios deve ficar atento a periodização do seu treino sabendo adaptar-se dependendo da fase em que se encontra o seu ciclo, como quando está em uma fase pós-ciclo aonde o atleta não consegue treinar com tanta intensidade então prefere escolher uma divisão de treino mais adequada, como um ABC1x ou ABCD1x.</p>
