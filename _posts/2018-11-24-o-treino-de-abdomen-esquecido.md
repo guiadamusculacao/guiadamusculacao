@@ -2,6 +2,7 @@
 title: O treino de abdômen esquecido
 description: Já ouviu falar do Stomach Vacuum? Trata-se de um exercício de treino de abdômen para gerar hipertrofia na região transversal, responsável pela dilatação.
 featuredimage: https://www.oguiadamusculacao.com/thumb/o-treino-de-abdomen-esquecido.png
+facebookimage: https://i.imgur.com/VrdtG4t.png
 data: 24/11/2018
 tags: treino
 ---
