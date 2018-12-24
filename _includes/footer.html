@@ -1,3 +1,14 @@
+<div class="emailmarketing">
+	<form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
+		<fieldset style="border:none;">
+        <input type="hidden" name="_next" value="{{ site.url }}" />
+        <p>Receba nosso e-book gratuitamente no seu e-mail:</p><input type="text" name="Email" placeholder="Seu e-mail" v-validate="'required|email'"
+               :class="{ 'has-error': errors.has('email') }">
+        <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+</div>
 <div class="footer">
 	<div class="footer-item"><h4>Links Úteis</h4><br/>
 		<p style="color:#129a00;display:inline-block;">•</p> <a href="{{ site.url }}">Pagina Inicial</a><br/>
