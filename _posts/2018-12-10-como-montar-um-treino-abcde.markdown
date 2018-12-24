@@ -73,13 +73,7 @@ tags: dieta
 <br/>
 <p>As séries podem variar entre 3 a 4 e as repetições entre 8 a 12 ou adapte dependendo do seu objetivo, o abdominal e panturrilha são itens que você pode mudar a vontade podendo intercalar ou no caso da panturrilha treinar até mesmo todos os dias.</p>
 <!-- Anuncio no texto -->
-<center><div class="anuncio-desktop"><amp-ad
-   layout="fixed-height"
-   height=250
-   type="adsense"
-   data-ad-client="ca-pub-2816982644079927"
-   data-ad-slot="5967151557">
-</amp-ad></div></center>
+{% include anuncio.html %}
 <h2>Hormonizados e Naturais</h2>
 <p>É importante lembrar que quem faz uso de hormônios deve ficar atento a periodização do seu treino sabendo adaptar-se dependendo da fase em que se encontra o seu ciclo, como quando está em uma fase pós-ciclo aonde o atleta não consegue treinar com tanta intensidade então prefere escolher uma divisão de treino mais adequada, como um ABC1x ou ABCD1x.</p>
 <p>Já pessoas naturais tendem a manter um nível hormonal equilibrado possibilitando manter um nível de intensidade sem oscilações drásticas, o que facilita a escolha de uma divisão de treino por um longo período.</p>
