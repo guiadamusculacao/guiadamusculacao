@@ -1,6 +1,6 @@
 ---
-title: Receita de hipercalórico caseiro
-description: Gostaria de aprender uma receita de hipercalórico caseiro para poder consumir um produto de qualidade e baixo custo, então veja essa matéria
+title: Receita hipercalórico caseiro
+description: Gostaria de aprender uma receita hipercalórico caseiro para poder consumir um produto de qualidade e baixo custo, então veja essa matéria
 featuredimage: https://www.oguiadamusculacao.com/thumb/receita-de-hipercalorico-caseiro.png
 data: 01/01/2018
 tags: suplementação
