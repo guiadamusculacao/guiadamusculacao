@@ -5,7 +5,7 @@ featuredimage: https://www.oguiadamusculacao.com/thumb/receita-de-hipercalorico-
 data: 01/01/2018
 tags: suplementação
 ---
-<p>Na postagem de hoje, trazemos a vocês uma receita de Hipercalórico Caseiro, possibilitando aumentar a quantidade de calorias ingeridas sem gastar uma enorme quantidade de dinheiro em produtos fraudulentos</p>
+<p>Na postagem de hoje, trazemos a vocês uma <b>Receita Hipercalórico Caseiro</b>, possibilitando aumentar a quantidade de calorias ingeridas sem gastar uma enorme quantidade de dinheiro em produtos fraudulentos</p>
 <p>Esta receita foi realizada pelo atleta Léo Araujo do canal Hipertrofiando, o vídeo está no final da postagem.</p>
 <br/>
 <p>Ingredientes:</p>
