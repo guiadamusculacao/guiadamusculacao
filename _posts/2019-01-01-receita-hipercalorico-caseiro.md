@@ -38,6 +38,6 @@ tags: suplementação
     sandbox="allow-scripts allow-same-origin"
     layout="responsive"
     frameborder="0"
-    src="https://www.youtube.com/watch?v=FNjMzdr2Uts">
+    src="https://www.youtube.com/embed/FNjMzdr2Uts">
 </amp-iframe>
 </center>
